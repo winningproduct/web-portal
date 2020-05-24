@@ -6,12 +6,12 @@ const Layout = ({ children }) => {
   return (
     <html>
       <head>
-        <title>Page Title</title>
+        <title>Winning Product</title>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
       </head>

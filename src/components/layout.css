@@ -12,3 +12,7 @@ h1{
 p{
   font-family: 'Lato', sans-serif;
 }
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
