@@ -577,7 +577,7 @@ const IndexPage = () => {
     <div className="container-fluid">
       <div
         className="row my-3 py-5"
-        style={{backgroundImage: "url('../../bg.jpg')", backgroundSize: "cover" ,backgroundRepeat: "no-repeat"}}
+        style={{backgroundImage: "url('../../bg.png')", backgroundSize: "cover" ,backgroundRepeat: "no-repeat"}}
       >
         <div className="container">
           <div className="row">
