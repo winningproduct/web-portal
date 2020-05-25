@@ -14,5 +14,12 @@ p{
 }
 a {
   text-decoration: none !important;
-  color: #fff !important;
+}
+
+#Path-1:hover, #Path-2:hover, #Path-3:hover, #Path-4:hover, #Path-5:hover, #Path-6:hover, #Path-7:hover, #Group:hover, text:hover, tspan:hover {
+  opacity: 1 ;
+}
+
+.twolineHeading{
+  height: 48px;
 }

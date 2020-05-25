@@ -59,7 +59,7 @@ const Explore = () => (
                 </div>
                 <div className="py-3 mb-0 mt-5 text-center" style={{backgroundColor: "#34495E", color:"#fff"}}>
                   <p className="mb-0 text-center">
-                  <a target="_blank" href="https://learn.winningproduct.com/1-explore">LEARN EXPLORE</a>
+                  <a target="_blank" href="https://learn.winningproduct.com/1-explore" class="text-white">LEARN EXPLORE</a>
                   </p>
                 </div>
         </div>
