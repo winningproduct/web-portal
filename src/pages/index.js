@@ -6,6 +6,7 @@ import Plan from "../components/stages/Plan";
 import Build from "../components/stages/Build";
 import Harvest from "../components/stages/Harvest";
 import Retire from "../components/stages/Retire";
+import Typist from 'react-typist';
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -81,7 +82,17 @@ const IndexPage = () => {
       <div className="row">
         <div className="col col-sm-12 col-md-12 col-lg-8 offset-lg-2 text-center my-5">
           <h1>YOUR TOOL KIT TO BUILD</h1>
-          <h1>A KICKASS SOFTWARE PRODUCT</h1>
+            <h1 class="d-flex flex-row justify-content-center align-items-center">
+              A &nbsp;
+              <Typist>
+              <span style={{color:"#8E44AD"}}>KICKASS</span>
+              <Typist.Backspace count={7} delay={3000} />
+              <span style={{color:"#8E44AD"}}>WINNING</span>
+              </Typist> 
+              SOFTWARE PRODUCT
+            </h1>
+          
+          
         </div>
         <div className="col col-sm-12 col-md-12 col-lg-12 mb-5">
           <div className="d-flex flex-row justify-content-between">
