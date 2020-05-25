@@ -2,8 +2,10 @@
   font-family: myFirstFont;
   src: url(../fonts/myfont.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 h1,h2,h3,h4,h5,h6{
-  font-family: myFirstFont;
+  font-weight: 900 !Important;
 }
 h1{
   font-size: 48px;
@@ -49,4 +51,19 @@ a {
 
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}
+
+*{
+  color:#444444;
+  font-family: 'Lato', sans-serif;
+}
+
+.p-18{
+  font-size:18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.justfy-content-around{
+  justify-content: space-between;
 }

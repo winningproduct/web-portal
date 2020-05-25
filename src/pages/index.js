@@ -65,10 +65,6 @@ const IndexPage = () => {
                   <li class="nav-item">
                     <a class="nav-link" href="#">Certify</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
-                 
                 </ul>
               </div>
             </nav>
@@ -89,7 +85,7 @@ const IndexPage = () => {
               <Typist.Backspace count={7} delay={3000} />
               <span style={{color:"#8E44AD"}}>WINNING</span>
               </Typist> 
-              SOFTWARE PRODUCT
+              &nbsp; SOFTWARE PRODUCT
             </h1>
           
           
@@ -171,17 +167,17 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p>
+          <p class="lead"> 
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
         <div class="d-flex flex-row flex-wrap">
           <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Learn to build a winning product</h5>
-                <p>Learn from the community’s best success stories</p>
+                <p class="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Canvas</button>
@@ -189,11 +185,11 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Manage your product strategy</h5>
-                <p>Learn from the community’s best success stories</p>
+                <p class="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>Go to Strategy Tool</button>
@@ -201,11 +197,11 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
                 <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Get your team certified</h5>
-                <p>Get your team certified on product building. Let’s help them think business first</p>
+                <p class="p-18">Get your team certified on product building. Let’s help them think business first</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Certifications</button>
@@ -219,7 +215,7 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p>
+          <p class="lead">
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
@@ -229,7 +225,7 @@ const IndexPage = () => {
             <img src={"../../value-proposition.jpg"} alt="Explore – Value proposition image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Explore – Value proposition</h5>
-              <p className="mb-0">The primary value that the company promises to deliver to customers. This is the declaration of intent or company's brand statement to consumers to communicate what the company stands for, how it operates, and why it deserves their sale.</p>
+              <p className="mb-0 p-18">The primary value that the company promises to deliver to customers. This is the declaration of intent or company's brand statement to consumers to communicate what the company stands for, how it operates, and why it deserves their sale.</p>
             </div>
           </div>
         </div>
@@ -238,7 +234,7 @@ const IndexPage = () => {
             <img src={"../../minimum-viable-product.jpg"} alt="Focus – MVP identification image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Focus – MVP identification</h5>
-              <p className="mb-0">Identify the minimum set of features that can gain maximum learning and has low cost of implementation.</p>
+              <p className="mb-0 p-18">Identify the minimum set of features that can gain maximum learning and has low cost of implementation.</p>
             </div>
           </div>
         </div>
@@ -247,7 +243,7 @@ const IndexPage = () => {
             <img src={"../../technical-architecture.jpg"} alt="Focus - Technical Architecture image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Focus - Technical Architecture</h5>
-              <p className="mb-0">Verify if the solution is technology feasible to implement with available resources</p>
+              <p className="mb-0 p-18">Verify if the solution is technology feasible to implement with available resources</p>
             </div>
           </div>
         </div>
@@ -256,7 +252,7 @@ const IndexPage = () => {
             <img src={"../../high-fidelity-prototype.jpg"} alt="Immerse – High fidelity prototype image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Immerse – High fidelity prototype</h5>
-              <p className="mb-0">Build a detailed prototype to demonstrate how the final product would operate and obtain feedback</p>
+              <p className="mb-0 p-18">Build a detailed prototype to demonstrate how the final product would operate and obtain feedback</p>
             </div>
           </div>
         </div>
@@ -265,7 +261,7 @@ const IndexPage = () => {
             <img src={"../../growth-hacking.jpg"} alt="Plan – Growth hacking plan image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Plan – Growth hacking plan</h5>
-              <p className="mb-0">Exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
+              <p className="mb-0 p-18">Exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
             </div>
           </div>
         </div>
@@ -274,7 +270,7 @@ const IndexPage = () => {
             <img src={"../../ci-cd-pipeline.jpg"} alt="Plan - Delivery Pipeline image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Plan - Delivery Pipeline</h5>
-              <p className="mb-0">Setup source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
+              <p className="mb-0 p-18">Setup source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
             </div>
           </div>
         </div>
@@ -283,7 +279,7 @@ const IndexPage = () => {
             <img src={"../../data-privacy.jpg"} alt="Build - Data Privacy Protection image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Build - Data Privacy Protection</h5>
-              <p className="mb-0">Understand the data protection policies in target markets. Device strategies for data segregation and limiting access to production data.</p>
+              <p className="mb-0 p-18">Understand the data protection policies in target markets. Device strategies for data segregation and limiting access to production data.</p>
             </div>
           </div>
         </div>
@@ -292,7 +288,7 @@ const IndexPage = () => {
             <img src={"../../win-loss-analysis.jpg"} alt="Harvest – Win-loss Analysis image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Harvest – Win-loss Analysis</h5>
-              <p className="mb-0">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. Analyze these results with different demographics in mind.</p>
+              <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. Analyze these results with different demographics in mind.</p>
             </div>
           </div>
         </div>
@@ -309,7 +305,7 @@ const IndexPage = () => {
           <div className="row">
             <div className="col col-sm-12 col-md-6 my-5">
               <h3 className="text-white mb-4">Contribute your knowledge</h3>
-              <p className="text-white">
+              <p className="text-white lead">
                 Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
                 way can help someone else who is starting just like you did. Join our team of knowledge gurus.
               </p>
@@ -381,7 +377,7 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p>
+          <p class="lead">
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
@@ -391,7 +387,7 @@ const IndexPage = () => {
               <div>
               <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Learn to build a winning product</h5>
-                <p>Learn from the community’s best success stories</p>
+                <p class="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Canvas</button>
@@ -403,7 +399,7 @@ const IndexPage = () => {
               <div>
               <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Manage your product strategy</h5>
-                <p>Learn from the community’s best success stories</p>
+                <p class="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>Go to Strategy Tool</button>
@@ -415,7 +411,7 @@ const IndexPage = () => {
               <div>
                 <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Get your team certified</h5>
-                <p>Get your team certified on product building. Let’s help them think business first</p>
+                <p class="p-18">Get your team certified on product building. Let’s help them think business first</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Certifications</button>

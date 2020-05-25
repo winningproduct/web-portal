@@ -3,8 +3,8 @@ import React from "react";
 const Focus = () => (
         <div style={{border:"1px solid #ECF0F1", backgroundColor:"#fff", width:"420px"}}>
             <div className="px-3 py-3">
-                  <h4 className="mb-0">Focus</h4>
-                  <p className="mb-0">Select a specialization to target</p>
+                  <p className="mb-0 lead" style={{fontWeight:"400"}}>Focus</p>
+                  <p className="mb-0 p-18">Select a specialization to target</p>
                 </div>
                 <div className="px-3">
                   <div

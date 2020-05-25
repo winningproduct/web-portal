@@ -3,8 +3,8 @@ import React from "react";
 const Build = () => (
         <div style={{border:"1px solid #ECF0F1", backgroundColor:"#fff", width:"420px"}}>
             <div className="px-3 py-3">
-                  <h4 className="mb-0">Build</h4>
-                  <p className="mb-0">Validate the Primary Assumptions</p>
+                  <p className="mb-0 lead" style={{fontWeight:"400"}}>Build</p>
+                  <p className="mb-0 p-18">Validate the Primary Assumptions</p>
                 </div>
                 <div className="px-3">
                   <div

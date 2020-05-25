@@ -3,8 +3,8 @@ import React from "react";
 const Immerse = () => (
         <div style={{border:"1px solid #ECF0F1", backgroundColor:"#fff", width:"420px"}}>
             <div className="px-3 py-3">
-                  <h4 className="mb-0">Immerse</h4>
-                  <p className="mb-0">Dig deep and understand the solution</p>
+                  <p className="mb-0 lead" style={{fontWeight:"400"}}>Immerse</p>
+                  <p className="mb-0 p-18">Dig deep and understand the solution</p>
                 </div>
                 <div className="px-3">
                   <div
