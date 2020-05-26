@@ -115,11 +115,8 @@ const Contact = () => (
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
-          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+          <form name="WP Contact Form" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="WP Contact Form" />
-            <p hidden>
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
             <div className="form-group">
               <label htmlFor="exampleInputPassword1">Name</label>
               <input type="text" name="name" className="form-control" id="exampleInputPassword1" placeholder="Name" />
@@ -129,7 +126,6 @@ const Contact = () => (
               <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <div data-netlify-recaptcha="true"></div>
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
         </div>
