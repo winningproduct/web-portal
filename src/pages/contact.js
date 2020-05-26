@@ -21,7 +21,7 @@ const Contact = () => (
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item active">
+                  <li className="nav-item">
                     <Link className="nav-link" to="/">Get start<span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
@@ -40,7 +40,7 @@ const Contact = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col-12 col-md-4 contactBanner px-0">
+        <div className="col-12 col-md-4 contactBanner px-0 d-none d-lg-block">
           <img src={"../../contact.jpg"} className="contactBannerImg" loading="lazy" />
           <div className="overlay d-flex px-5 align-items-center justify-content-center">
             <div className="d-flex flex-column">
@@ -53,7 +53,7 @@ const Contact = () => (
               </div>
               <div>
                 <div className="w-100 d-flex flex-row flex-wrap">
-                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
                     <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/2338919?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
@@ -107,15 +107,66 @@ const Contact = () => (
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
                     <img className="rounded-circle" src={"https://avatars1.githubusercontent.com/u/27477126?s=400&u=c5efef05d5f9a45d05dc7f6b55b4c83852ec2665&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-amila.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-aravinthan.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-arshad.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-chinthaka.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-helani.jpeg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-kavindi.jpeg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-nuwan.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-1.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-2.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-3.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-4.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-5.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-6.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-7.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-8.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-9.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-10.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
                 </div>
               </div>
             </div>
 
           </div>
         </div>
-        <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
+        <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm px-5">
           <h3>Contact us</h3>
-          <form name="WP Contact Form" method="POST" data-netlify="true">
+          <form name="WP Contact Form" method="POST" data-netlify="true" style={{maxWidth:"520px"}}>
             <input type="hidden" name="form-name" value="WP Contact Form" />
             <div className="form-group">
               <label htmlFor="exampleInputPassword1">Name</label>
