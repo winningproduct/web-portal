@@ -115,7 +115,19 @@ const Contact = () => (
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
-          <form name="contact" method="POST" netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+          <form name="Contact Form" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="Contact Form" />
+            <div>
+              <label>Your Email:</label>
+              <input type="email" name="email" />
+            </div>
+            <div>
+              <label>Message:</label>
+              <textarea name="message" />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+          {/* <form name="contact" method="POST" netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
             <p hidden>
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
@@ -130,7 +142,7 @@ const Contact = () => (
             </div>
             <div data-netlify-recaptcha="true"></div>
             <button type="submit" className="btn btn-primary">Submit</button>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
