@@ -57,7 +57,7 @@ const IndexPage = () => {
                       <Link className="nav-link" to="/">Get start<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/contact">Learn</Link>
+                      <a className="nav-link" target="_blank" href="https://learn.winningproduct.com">Learn</a>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/contact">Manage</Link>
