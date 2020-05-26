@@ -115,7 +115,7 @@ const Contact = () => (
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
-          <form name="WP Contact Form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <form name="WP Contact Form" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="WP Contact Form" />
             <div className="form-group">
               <label htmlFor="exampleInputPassword1">Name</label>
@@ -126,7 +126,6 @@ const Contact = () => (
               <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <div data-netlify-recaptcha="true"></div>
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
         </div>
