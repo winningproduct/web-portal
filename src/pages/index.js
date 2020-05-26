@@ -44,10 +44,10 @@ const IndexPage = () => {
         <div className="container">
           <div className="row">
             <nav className="navbar navbar-expand-lg navbar-light bg-white w-100 sticky-top">
-              <a className="navbar-brand" href="#">
-              <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy"/>
+              <Link className="navbar-brand" to="/">
+                <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy"/>
                 <span className="ml-3 text-dark h6">WinningProduct</span>
-              </a>
+              </Link>        
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
               </button>

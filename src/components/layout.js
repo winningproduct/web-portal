@@ -4,9 +4,8 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <html>
-      <head>
-        <title>Winning Product</title>
+    <div>
+      <header>
         <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -14,11 +13,11 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-      </head>
-      <body>
+      </header>
+      <div>
         {children}
-      </body>
-    </html>
+      </div>
+    </div>
   )
 }
 
