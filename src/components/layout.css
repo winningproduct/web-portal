@@ -100,3 +100,11 @@ a {
 .contactForm{
   height:calc(100vh - 56px);
 }
+
+.arrowDef{
+  fill:#FFDFA0;
+}
+
+.arrowAct{
+  fill:#FFBF40;
+}
