@@ -76,9 +76,9 @@ const IndexPage = () => {
    
     <div className="container">
       <div className="row">
-        <div className="col col-sm-12 col-md-12 col-lg-8 offset-lg-2 text-center my-5">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2 text-center my-5">
           <h1>YOUR TOOL KIT TO BUILD</h1>
-            <h1 class="d-flex flex-row justify-content-center align-items-center">
+            <h1 class="d-lg-flex flex-row justify-content-center align-items-center">
               A &nbsp;
               <Typist>
               <span style={{color:"#8E44AD"}}>KICKASS</span>
@@ -87,11 +87,9 @@ const IndexPage = () => {
               </Typist> 
               &nbsp; SOFTWARE PRODUCT
             </h1>
-          
-          
         </div>
-        <div className="col col-sm-12 col-md-12 col-lg-12 mb-5">
-          <div className="d-flex flex-row justify-content-between">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12 mb-5">
+          <div className="d-flex flex-row justify-content-lg-between justify-content-center">
             <div>
               <svg 
                 width="474px" 
@@ -103,7 +101,7 @@ const IndexPage = () => {
                   <title>wheel-new</title>
                   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="wheel-new" transform="translate(0.508789, 0.000000)">
-                        <g id="step-8" opacity="0.5" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{cursor: "pointer"}}>
+                        <g id="step-8" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{cursor: "pointer"}} className="default active">
                             <path d="M86.1410506,91.3762552 C110.404959,77.6492296 137.777556,70.3888756 165.641477,70.2894271 C165.431035,70.2894271 166.155892,70.2894271 165.968832,70.2894271 L165.968832,0 C103.730749,0.447446217 44.1467872,25.3201453 0,69.2819453 L49.6176193,119 C60.4708211,108.157996 72.7604187,98.8630118 86.1410506,91.3762552 Z" id="Path" fill="#FF715E" fill-rule="nonzero"></path>
                             <text id="Retire" transform="translate(90.028320, 53.859375) rotate(338.000000) translate(-90.028320, -53.859375) " font-family="Futura-Bold, Futura" font-size="18" font-weight="bold" fill="#FFFFFF">
                                 <tspan x="59.0143203" y="60.859375">RETIRE</tspan>
@@ -155,7 +153,7 @@ const IndexPage = () => {
                   </g>
               </svg>
            </div>
-            <div>
+            <div class="d-none d-lg-block">
               {
                 renderStage()
               }
@@ -165,15 +163,15 @@ const IndexPage = () => {
       </div>
 
       <div className="row my-3">
-        <div className="col col-sm-12 my-5">
+        <div className="col-12 col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
           <p class="lead"> 
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
         <div class="d-flex flex-row flex-wrap">
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Learn to build a winning product</h5>
@@ -184,8 +182,8 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Manage your product strategy</h5>
@@ -196,8 +194,8 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
                 <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Get your team certified</h5>
@@ -213,15 +211,15 @@ const IndexPage = () => {
       </div>
 
       <div className="row my-3">
-        <div className="col col-sm-12 my-5">
+        <div className="col-12 col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
           <p class="lead">
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
         <div class="d-flex flex-row flex-wrap">
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../value-proposition.jpg"} alt="Explore – Value proposition image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Explore – Value proposition</h5>
@@ -229,8 +227,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../minimum-viable-product.jpg"} alt="Focus – MVP identification image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Focus – MVP identification</h5>
@@ -238,8 +236,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../technical-architecture.jpg"} alt="Focus - Technical Architecture image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Focus - Technical Architecture</h5>
@@ -247,8 +245,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../high-fidelity-prototype.jpg"} alt="Immerse – High fidelity prototype image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Immerse – High fidelity prototype</h5>
@@ -256,8 +254,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../growth-hacking.jpg"} alt="Plan – Growth hacking plan image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Plan – Growth hacking plan</h5>
@@ -265,8 +263,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../ci-cd-pipeline.jpg"} alt="Plan - Delivery Pipeline image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Plan - Delivery Pipeline</h5>
@@ -274,8 +272,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../data-privacy.jpg"} alt="Build - Data Privacy Protection image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Build - Data Privacy Protection</h5>
@@ -283,8 +281,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="card col col-sm-12 col-md-12 col-lg-4 mb-4 border-0">
-          <div className="col col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
+        <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4 mb-lg-0">
+          <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../win-loss-analysis.jpg"} alt="Harvest – Win-loss Analysis image" style={{width:"100%", height:"auto"}} />
             <div className="px-4 py-4">
               <h5>Harvest – Win-loss Analysis</h5>
@@ -303,7 +301,7 @@ const IndexPage = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col col-sm-12 col-md-6 my-5">
+            <div className="col-12 col-sm-12 col-md-6 my-5">
               <h3 className="text-white mb-4">Contribute your knowledge</h3>
               <p className="text-white lead">
                 Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
@@ -382,8 +380,8 @@ const IndexPage = () => {
           </p>
         </div>
         <div class="d-flex flex-row flex-wrap">
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Learn to build a winning product</h5>
@@ -394,8 +392,8 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
               <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Manage your product strategy</h5>
@@ -406,8 +404,8 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="card col col-sm-12 col-md-12 col-lg-4 border-0">
-            <div className="col col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
+          <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+            <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
                 <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
                 <h5 class="twolineHeading">Get your team certified</h5>
