@@ -42,7 +42,7 @@ const Contact = () => (
       <div className="row">
         <div className="col-12 col-md-4 contactBanner px-0">
           <img src={"../../contact.jpg"} className="contactBannerImg" loading="lazy" />
-          <div class="overlay d-flex px-5 align-items-center justify-content-center">
+          <div className="overlay d-flex px-5 align-items-center justify-content-center">
             <div className="d-flex flex-column">
               <div>
                 <h3 className="text-white mb-4">Contribute your knowledge</h3>
@@ -115,18 +115,21 @@ const Contact = () => (
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
-          <form action="POST" data-netlify="true" data-netlify-recaptcha="true">
-            <div class="form-group">
+          <form name="contact" action="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+            <p hidden>
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <div className="form-group">
               <label for="exampleInputPassword1">Name</label>
-              <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Name" />
+              <input type="text" name="name" className="form-control" id="exampleInputPassword1" placeholder="Name" />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div data-netlify-recaptcha="true"></div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
