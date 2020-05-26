@@ -1,6 +1,6 @@
 import React from "react";
 
-const Plan = () => (
+const Plan = ({learn}) => (
   <div style={{ border: "2px solid #ff715e", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Plan</p>
@@ -44,9 +44,9 @@ const Plan = () => (
         <p className="mb-0">+10 more</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff", cursor: "pointer" }} onClick={() => learn("4-plan")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/4-plan" className="text-white">LEARN PLAN</a>
+        <span className="text-white">LEARN PLAN</span>
       </p>
     </div>
   </div>

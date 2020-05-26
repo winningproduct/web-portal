@@ -1,6 +1,6 @@
 import React from "react";
 
-const Immerse = () => (
+const Immerse = ({learn}) => (
   <div style={{ border: "2px solid #5fd996", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Immerse</p>
@@ -44,9 +44,9 @@ const Immerse = () => (
         <p className="mb-0">+3 more</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#5fd996", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#5fd996", color: "#fff", cursor: "pointer" }} onClick={() => learn("3-immerse")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/3-immerse" className="text-white">LEARN IMMERSE</a>
+        <span className="text-white">LEARN IMMERSE</span>
       </p>
     </div>
   </div>

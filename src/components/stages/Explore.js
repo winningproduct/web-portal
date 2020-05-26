@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby"
 
-const Explore = () => (
+const Explore = ({learn}) => (
   <div style={{ border: "2px solid #ffbf40", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Explore</p>
@@ -57,9 +57,9 @@ const Explore = () => (
                     <p className="mb-0">Mega Trend Analysis</p>
                   </div> */}
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ffbf40", }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ffbf40", color: "#fff", cursor: "pointer" }} onClick={() => learn("1-explore")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/1-explore" className="text-dark">LEARN EXPLORE</a>
+        <span className="text-dark">LEARN EXPLORE</span>
       </p>
     </div>
   </div>

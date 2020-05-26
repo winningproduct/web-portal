@@ -1,6 +1,6 @@
 import React from "react";
 
-const Build = () => (
+const Build = ({learn}) => (
   <div style={{ border: "2px solid #487da8", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Build</p>
@@ -44,9 +44,9 @@ const Build = () => (
         <p className="mb-0">+12 more</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff", cursor: "pointer" }} onClick={() => learn("5-build")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/5-build" className="text-white">LEARN BUILD</a>
+        <span className="text-white">LEARN BUILD</span>
       </p>
     </div>
   </div>

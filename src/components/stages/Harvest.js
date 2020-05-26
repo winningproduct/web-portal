@@ -1,6 +1,6 @@
 import React from "react";
 
-const Harvest = () => (
+const Harvest = ({learn}) => (
   <div style={{ border: "2px solid #5fd996", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Harvest</p>
@@ -44,9 +44,9 @@ const Harvest = () => (
         <p className="mb-0">+8 more</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#5fd996", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#5fd996", color: "#fff", cursor: "pointer" }} onClick={() => learn("7-harvest")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/7-harvest" className="text-white">LEARN HARVEST</a>
+        <span className="text-white">LEARN HARVEST</span>
       </p>
     </div>
   </div>

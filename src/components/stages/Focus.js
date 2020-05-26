@@ -1,6 +1,6 @@
 import React from "react";
 
-const Focus = () => (
+const Focus = ({learn}) => (
   <div style={{ border: "2px solid #487da8", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Focus</p>
@@ -44,9 +44,9 @@ const Focus = () => (
         <p className="mb-0">+3 more</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff", cursor: "pointer" }} onClick={() => learn("2-focus")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/2-focus" className="text-white">LEARN FOCUS</a>
+        <span className="text-white">LEARN FOCUS</span>
       </p>
     </div>
   </div>

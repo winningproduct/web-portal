@@ -1,6 +1,6 @@
 import React from "react";
 
-const Retire = () => (
+const Retire = ({learn}) => (
   <div style={{ border: "2px solid #ff715e", backgroundColor: "#fff", width: "420px" }}>
     <div className="px-3 py-3">
       <p className="mb-0 lead" style={{ fontWeight: "400" }}>Retire</p>
@@ -38,9 +38,9 @@ const Retire = () => (
         <p className="mb-0">Team Knowlege Transfer Plan</p>
       </div>
     </div>
-    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff" }}>
+    <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff", cursor: "pointer" }} onClick={() => learn("8-retire")}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/8-retire" className="text-white">LEARN RETIRE</a>
+        <span className="text-white">LEARN RETIRE</span>
       </p>
     </div>
   </div>
