@@ -67,3 +67,36 @@ a {
 .justfy-content-around{
   justify-content: space-between;
 }
+
+.default{
+  opacity:0.5;
+}
+
+.active{
+  opacity:1;
+}
+
+.overlay{
+  position: absolute;
+  z-index: 2;
+  top:0px;
+  background-color: rgba(108, 51, 133, 0.7);
+  width:100%;
+  height:calc(100%);
+}
+
+.contactBanner{
+  height:calc(100vh - 56px);
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.contactBannerImg{
+  height:calc(100vh - 56px);
+  width: auto;
+}
+
+.contactForm{
+  height:calc(100vh - 56px);
+}
