@@ -58,16 +58,16 @@ const IndexPage = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                      <Link className="nav-link" to="/">Get start<span className="sr-only">(current)</span></Link>
+                      <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                      <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/contact">Manage</Link>
+                      <Link className="nav-link px-3" to="/contact">Manage</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/contact">Certify</Link>
+                      <Link className="nav-link px-3" to="/contact">Certify</Link>
                     </li>
                   </ul>
                 </div>
@@ -146,12 +146,26 @@ const IndexPage = () => {
                           <tspan x="35.591" y="99.3421757">FOCUS</tspan>
                         </text>
                       </g>
-                      <g id="step-1" transform="translate(232.549891, 0.000000)" className={`default ${(stage === "EXPLORE" ? "active" : "")}`} onClick={() => setStage("EXPLORE")} style={{ cursor: "pointer" }} >
+
+                      <g id="step-1" transform="translate(232.549891, 0.000000)"  onClick={() => setStage("EXPLORE")} style={{ cursor: "pointer" }}>
+                        <polygon className={`arrowDef ${(stage === "EXPLORE" ? "arrowAct" : "")}`} id="Path" fill-rule="nonzero" transform="translate(157.036724, 105.385612) rotate(46.000000) translate(-157.036724, -105.385612) " points="140.134996 153.885612 138.536724 56.8856117 175.536724 104.115124"></polygon>
+                        <g className={`default ${(stage === "EXPLORE" ? "active" : "")}`}>
+                          <path d="M169.94132,68.6143842 C125.904385,25.1830631 66.5328788,0.561694133 4.4858832,0 L2.94132042,0 L2.94132042,69.7536946 L4.4858832,69.7536946 C47.967281,70.2185792 89.548355,87.5293936 120.374897,118 L169.94132,68.6143842 Z" id="Path" fill="#FFBF40" fill-rule="nonzero"></path>
+                          <text id="EXPLORE" transform="translate(79.000000, 49.457052) rotate(23.000000) translate(-79.000000, -49.457052) " font-family="Futura-Bold, Futura" font-size="18" font-weight="bold" fill="#FFFFFF">
+                              <tspan x="36.043" y="56.4570518">EXPLORE</tspan>
+                          </text>
+                        </g>
+                      </g>
+                      
+
+                      {/* <g id="step-1" transform="translate(232.549891, 0.000000)" className={`default ${(stage === "EXPLORE" ? "active" : "")}`} onClick={() => setStage("EXPLORE")} style={{ cursor: "pointer" }} >
                         <path d="M4.4858832,0 C66.5328788,0.561694133 125.904385,25.1830631 169.94132,68.6143842 L169.37732,68.063 L179.073525,58.3868944 L170.801817,117.810843 L110.407817,126.918457 L119.85568,117.489019 C89.0823006,87.335922 47.7236352,70.2159743 4.4858832,69.7536946 L4.4858832,69.7536946 L2.94132042,69.7536946 L2.94132042,0 Z" id="Combined-Shape" fill="#FFBF40" fillRule="nonzero"></path>
                         <text id="EXPLORE" transform="translate(79.000000, 49.457052) rotate(23.000000) translate(-79.000000, -49.457052) " fontFamily="Futura-Bold, Futura" fontSize="18" fontWeight="bold" fill="#FFFFFF">
                           <tspan x="36.043" y="56.4570518">EXPLORE</tspan>
                         </text>
-                      </g>
+                      </g> */}
+
+
                     </g>
                   </g>
                 </svg>
@@ -165,8 +179,8 @@ const IndexPage = () => {
           </div>
         </div>
 
-        <div className="row my-3">
-          <div className="col-12 col-sm-12 my-5">
+        <div className="row my-5">
+          <div className="col-12 col-sm-12 mt-5 mb-3">
             <h3>What do you get in the WP Toolkit?</h3>
             <p className="lead">
               Our community has built a complete toolkit to help you nurture your product to a win over the competition.
@@ -213,8 +227,8 @@ const IndexPage = () => {
 
         </div>
 
-        <div className="row my-3">
-          <div className="col-12 col-sm-12 my-5">
+        <div className="row my-5">
+          <div className="col-12 col-sm-12 mt-5 mb-3">
             <h3>Why products requires a specialized process</h3>
             <p className="lead">
             Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
@@ -304,7 +318,7 @@ const IndexPage = () => {
         >
           <div className="container">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-6 my-5">
+              <div className="col-12 col-sm-12 col-md-6 mt-5 mb-3">
                 <h3 className="text-white mb-4">Contribute your knowledge</h3>
                 <p className="text-white lead">
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
@@ -430,8 +444,8 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row my-3">
-          <div className="col col-sm-12 my-5">
+        <div className="row my-5">
+          <div className="col col-sm-12 mb-3">
             <h3>Become winning product certified</h3>
             <p className="lead">
               Winning Product certifications are organized in to three levels, Professional,Expert, and Ninja

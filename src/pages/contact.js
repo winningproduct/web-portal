@@ -22,16 +22,16 @@ const Contact = () => (
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <Link className="nav-link" to="/">Get start<span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                    <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Manage</Link>
+                    <Link className="nav-link px-3" to="/contact">Manage</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Certify</Link>
+                    <Link className="nav-link px-3" to="/contact">Certify</Link>
                   </li>
                 </ul>
               </div>
