@@ -367,6 +367,27 @@ const IndexPage = () => {
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
                     <img className="rounded-circle" src={"https://avatars1.githubusercontent.com/u/27477126?s=400&u=c5efef05d5f9a45d05dc7f6b55b4c83852ec2665&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-amila.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-aravinthan.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-arshad.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-chinthaka.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-helani.jpeg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-kavindi.jpeg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-nuwan.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
                 </div>
 
               </div>
