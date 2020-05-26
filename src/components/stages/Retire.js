@@ -40,7 +40,7 @@ const Retire = () => (
     </div>
     <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff" }}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/8-retire" class="text-white">LEARN RETIRE</a>
+        <a target="_blank" href="https://learn.winningproduct.com/8-retire" className="text-white">LEARN RETIRE</a>
       </p>
     </div>
   </div>

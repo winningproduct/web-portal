@@ -46,7 +46,7 @@ const Plan = () => (
     </div>
     <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#ff715e", color: "#fff" }}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/4-plan" class="text-white">LEARN PLAN</a>
+        <a target="_blank" href="https://learn.winningproduct.com/4-plan" className="text-white">LEARN PLAN</a>
       </p>
     </div>
   </div>

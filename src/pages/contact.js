@@ -12,10 +12,10 @@ const Contact = () => (
         <div className="container">
           <div className="row">
             <nav className="navbar navbar-expand-lg navbar-light bg-white w-100 sticky-top">
-              <a className="navbar-brand" href="#">
+              <Link className="navbar-brand" to="/">
                 <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy" />
                 <span className="ml-3 text-dark h6">WinningProduct</span>
-              </a>
+              </Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -113,41 +113,25 @@ const Contact = () => (
 
           </div>
         </div>
-        <form name="contact" action="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
-          <p hidden>
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
-          <div className="form-group">
-            <label for="exampleInputPassword1">Name</label>
-            <input type="text" name="name" className="form-control" id="exampleInputPassword1" placeholder="Name" />
-          </div>
-          <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div data-netlify-recaptcha="true"></div>
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
-        {/* <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
+        <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
           <form name="contact" action="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
             <p hidden>
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
             <div className="form-group">
-              <label for="exampleInputPassword1">Name</label>
+              <label htmlFor="exampleInputPassword1">Name</label>
               <input type="text" name="name" className="form-control" id="exampleInputPassword1" placeholder="Name" />
             </div>
             <div className="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label htmlFor="exampleInputEmail1">Email address</label>
               <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div data-netlify-recaptcha="true"></div>
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
-        </div> */}
+        </div>
       </div>
     </div>
   </Layout>

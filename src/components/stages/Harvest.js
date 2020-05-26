@@ -46,7 +46,7 @@ const Harvest = () => (
     </div>
     <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#5fd996", color: "#fff" }}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/7-harvest" class="text-white">LEARN HARVEST</a>
+        <a target="_blank" href="https://learn.winningproduct.com/7-harvest" className="text-white">LEARN HARVEST</a>
       </p>
     </div>
   </div>

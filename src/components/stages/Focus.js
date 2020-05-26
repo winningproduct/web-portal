@@ -46,7 +46,7 @@ const Focus = () => (
     </div>
     <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff" }}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/2-focus" class="text-white">LEARN FOCUS</a>
+        <a target="_blank" href="https://learn.winningproduct.com/2-focus" className="text-white">LEARN FOCUS</a>
       </p>
     </div>
   </div>

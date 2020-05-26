@@ -46,7 +46,7 @@ const Build = () => (
     </div>
     <div className="py-3 mb-0 mt-5 text-center" style={{ backgroundColor: "#487da8", color: "#fff" }}>
       <p className="mb-0 text-center">
-        <a target="_blank" href="https://learn.winningproduct.com/5-build" class="text-white">LEARN BUILD</a>
+        <a target="_blank" href="https://learn.winningproduct.com/5-build" className="text-white">LEARN BUILD</a>
       </p>
     </div>
   </div>
