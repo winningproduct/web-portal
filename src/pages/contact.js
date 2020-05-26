@@ -115,7 +115,7 @@ const Contact = () => (
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
-          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+          <form name="contact" method="POST" netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
             <p hidden>
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
