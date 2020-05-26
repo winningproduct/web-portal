@@ -116,7 +116,7 @@ const Contact = () => (
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm">
           <h3>Contact us</h3>
           <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="Contact Form" />
+            <input type="hidden" name="form-name" value="WP Contact Form" />
             <p hidden>
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
