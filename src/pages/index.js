@@ -39,31 +39,31 @@ const IndexPage = () => {
   return (
     <Layout>
     <SEO title="Home" />
-    <div class="container-fluid">
-      <div class="row border-bottom">
-        <div class="container">
-          <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white w-100 sticky-top">
-              <a class="navbar-brand" href="#">
-              <img src={"../../logo.svg"} class="d-inline-block align-top" alt="" loading="lazy"/>
-                <span class="ml-3 text-dark h6">WinningProduct</span>
+    <div className="container-fluid">
+      <div className="row border-bottom">
+        <div className="container">
+          <div className="row">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white w-100 sticky-top">
+              <a className="navbar-brand" href="#">
+              <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy"/>
+                <span className="ml-3 text-dark h6">WinningProduct</span>
               </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Get start <span class="sr-only">(current)</span></a>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav ml-auto">
+                  <li className="nav-item active">
+                    <Link className="nav-link" to="/">Get start<span className="sr-only">(current)</span></Link>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Learn</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/contact">Learn</Link>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Manage</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/contact">Manage</Link>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Certify</a>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/contact">Certify</Link>
                   </li>
                 </ul>
               </div>
@@ -78,7 +78,7 @@ const IndexPage = () => {
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2 text-center my-5">
           <h1>YOUR TOOL KIT TO BUILD</h1>
-            <h1 class="d-lg-flex flex-row justify-content-center align-items-center">
+            <h1 className="d-lg-flex flex-row justify-content-center align-items-center">
               A &nbsp;
               <Typist>
               <span style={{color:"#8E44AD"}}>KICKASS</span>
@@ -153,7 +153,7 @@ const IndexPage = () => {
                   </g>
               </svg>
            </div>
-            <div class="d-none d-lg-block">
+            <div className="d-none d-lg-block">
               {
                 renderStage()
               }
@@ -165,17 +165,17 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col-12 col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p class="lead"> 
+          <p className="lead"> 
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
-        <div class="d-flex flex-row flex-wrap">
+        <div className="d-flex flex-row flex-wrap">
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
-              <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Learn to build a winning product</h5>
-                <p class="p-18">Learn from the community’s best success stories</p>
+              <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Learn to build a winning product</h5>
+                <p className="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Canvas</button>
@@ -185,9 +185,9 @@ const IndexPage = () => {
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
-              <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Manage your product strategy</h5>
-                <p class="p-18">Learn from the community’s best success stories</p>
+              <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Manage your product strategy</h5>
+                <p className="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>Go to Strategy Tool</button>
@@ -197,9 +197,9 @@ const IndexPage = () => {
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{border:"1px solid #ECF0F1"}}>
               <div>
-                <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Get your team certified</h5>
-                <p class="p-18">Get your team certified on product building. Let’s help them think business first</p>
+                <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Get your team certified</h5>
+                <p className="p-18">Get your team certified on product building. Let’s help them think business first</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Certifications</button>
@@ -213,11 +213,11 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col-12 col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p class="lead">
+          <p className="lead">
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
-        <div class="d-flex flex-row flex-wrap">
+        <div className="d-flex flex-row flex-wrap">
         <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4 mb-lg-0">
           <div className="col-12 col-sm-12 px-0" style={{border:"1px solid #ECF0F1"}}>
             <img src={"../../value-proposition.jpg"} alt="Explore – Value proposition image" style={{width:"100%", height:"auto"}} />
@@ -309,60 +309,60 @@ const IndexPage = () => {
               </p>
             </div>
             <div className="col col-sm-12 col-md-5 offset-md-1 my-5">
-              <div class="w-100 d-flex flex-row flex-wrap">
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/2338919?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+              <div className="w-100 d-flex flex-row flex-wrap">
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/2338919?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars0.githubusercontent.com/u/36729333?s=400&u=573f0dc1b08576151e23a3c8ac3af139a045a409&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars0.githubusercontent.com/u/36729333?s=400&u=573f0dc1b08576151e23a3c8ac3af139a045a409&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/1892961?s=400&u=0a28b883301177d376a3cf71c52901ea8e22bd93&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/1892961?s=400&u=0a28b883301177d376a3cf71c52901ea8e22bd93&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars2.githubusercontent.com/u/33232105?s=400&u=c0ef1a77f9ef448dce359aedf72144ed017ba563&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars2.githubusercontent.com/u/33232105?s=400&u=c0ef1a77f9ef448dce359aedf72144ed017ba563&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/63349272?s=400&u=f268764151842248ce4e6473ebf18c9bccdf2829&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/63349272?s=400&u=f268764151842248ce4e6473ebf18c9bccdf2829&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/2035004?s=400&u=aa074e2b9ef48fbf2fa741e6918ea545024daa36&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/2035004?s=400&u=aa074e2b9ef48fbf2fa741e6918ea545024daa36&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/5242449?s=400&u=115d3c9f52917919136638dc5a4b3e67af6390e7&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/5242449?s=400&u=115d3c9f52917919136638dc5a4b3e67af6390e7&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/57340100?s=400&u=23f60ecaa0256e354bc844886ad10ddf8f773954&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/57340100?s=400&u=23f60ecaa0256e354bc844886ad10ddf8f773954&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars0.githubusercontent.com/u/42619922?s=400&u=d28ae39fb202e2064b7eb155c1ebe0bf645ad575&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars0.githubusercontent.com/u/42619922?s=400&u=d28ae39fb202e2064b7eb155c1ebe0bf645ad575&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars0.githubusercontent.com/u/628163?s=400&u=6b0bfa0e86bf558d1f31d6df930a48f7416ba246&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars0.githubusercontent.com/u/628163?s=400&u=6b0bfa0e86bf558d1f31d6df930a48f7416ba246&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/19371972?s=400&u=f642f2ed66426a79d74307c11764209684f831c6&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/19371972?s=400&u=f642f2ed66426a79d74307c11764209684f831c6&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/22959475?s=400&u=f0d5fac27ce843d70d6bb1eb26b88816cc916358&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/22959475?s=400&u=f0d5fac27ce843d70d6bb1eb26b88816cc916358&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/57340100?s=400&u=23f60ecaa0256e354bc844886ad10ddf8f773954&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/57340100?s=400&u=23f60ecaa0256e354bc844886ad10ddf8f773954&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars3.githubusercontent.com/u/11753507?s=400&u=696875cc7412ee177b7edcf68a9a7546754931c1&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/11753507?s=400&u=696875cc7412ee177b7edcf68a9a7546754931c1&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars1.githubusercontent.com/u/17847364?s=400&u=68bf28aff6250bd0a88b22e64b14bd2a86b4038d&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars1.githubusercontent.com/u/17847364?s=400&u=68bf28aff6250bd0a88b22e64b14bd2a86b4038d&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars0.githubusercontent.com/u/9572090?s=400&u=05e48d79357016fb66cb884830cb316d267623e2&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars0.githubusercontent.com/u/9572090?s=400&u=05e48d79357016fb66cb884830cb316d267623e2&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars2.githubusercontent.com/u/10953143?s=400&u=4aba7cea1c98a3873e191ba8a59c6cbe4cd20c24&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars2.githubusercontent.com/u/10953143?s=400&u=4aba7cea1c98a3873e191ba8a59c6cbe4cd20c24&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
-                <div class="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
-                  <img class="rounded-circle" src={"https://avatars1.githubusercontent.com/u/27477126?s=400&u=c5efef05d5f9a45d05dc7f6b55b4c83852ec2665&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
+                <div className="px-1 mb-2" style={{width:"10%", borderRadius:"50%"}}>
+                  <img className="rounded-circle" src={"https://avatars1.githubusercontent.com/u/27477126?s=400&u=c5efef05d5f9a45d05dc7f6b55b4c83852ec2665&v=4"} alt="contributor avatar image" style={{width:"100%", height:"auto"}} />
                 </div>
               </div>
               
@@ -375,17 +375,17 @@ const IndexPage = () => {
       <div className="row my-3">
         <div className="col col-sm-12 my-5">
           <h3>What do you get in the WP Toolkit?</h3>
-          <p class="lead">
+          <p className="lead">
             Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
         </div>
-        <div class="d-flex flex-row flex-wrap">
+        <div className="d-flex flex-row flex-wrap">
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
-              <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Learn to build a winning product</h5>
-                <p class="p-18">Learn from the community’s best success stories</p>
+              <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Learn to build a winning product</h5>
+                <p className="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Canvas</button>
@@ -395,9 +395,9 @@ const IndexPage = () => {
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
-              <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Manage your product strategy</h5>
-                <p class="p-18">Learn from the community’s best success stories</p>
+              <img src={"../../build.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Manage your product strategy</h5>
+                <p className="p-18">Learn from the community’s best success stories</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>Go to Strategy Tool</button>
@@ -407,9 +407,9 @@ const IndexPage = () => {
           <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
             <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{border:"1px solid #ECF0F1"}}>
               <div>
-                <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} class="mb-3" />
-                <h5 class="twolineHeading">Get your team certified</h5>
-                <p class="p-18">Get your team certified on product building. Let’s help them think business first</p>
+                <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{width:"auto", height:"60px"}} className="mb-3" />
+                <h5 className="twolineHeading">Get your team certified</h5>
+                <p className="p-18">Get your team certified on product building. Let’s help them think business first</p>
               </div>
               <div>
                 <button className="btn btn-outline-primary" style={{width:"220px"}}>View Certifications</button>
