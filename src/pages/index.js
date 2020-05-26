@@ -174,9 +174,9 @@ const IndexPage = () => {
           </div>
           <div className="d-flex flex-row flex-wrap">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{ border: "1px solid #ECF0F1" }}>
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between px-0">
                 <div>
-                  <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../learnNew.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} className="mb-3" />
                   <h5 className="twolineHeading">Learn to build a winning product</h5>
                   <p className="p-18">Learn from the community’s best success stories</p>
                 </div>
@@ -186,9 +186,9 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{ border: "1px solid #ECF0F1" }}>
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between px-0">
                 <div>
-                  <img src={"../../build.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../manage.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} className="mb-3" />
                   <h5 className="twolineHeading">Manage your product strategy</h5>
                   <p className="p-18">Learn from the community’s best success stories</p>
                 </div>
@@ -198,9 +198,9 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between py-4" style={{ border: "1px solid #ECF0F1" }}>
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between px-0">
                 <div>
-                  <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../certifyNew.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} className="mb-3" />
                   <h5 className="twolineHeading">Get your team certified</h5>
                   <p className="p-18">Get your team certified on product building. Let’s help them think business first</p>
                 </div>
@@ -215,15 +215,15 @@ const IndexPage = () => {
 
         <div className="row my-3">
           <div className="col-12 col-sm-12 my-5">
-            <h3>What do you get in the WP Toolkit?</h3>
+            <h3>Why products requires a specialized process</h3>
             <p className="lead">
-              Our community has built a complete toolkit to help you nurture your product to a win over the competition.
+            Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("1-explore/05-value-proposition")}>
-                <img src={"../../value-proposition.jpg"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../VP.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Explore – Value proposition</h5>
                   <p className="mb-0 p-18">The primary value that the company promises to deliver to customers. This is the declaration of intent or company's brand statement to consumers to communicate what the company stands for, how it operates, and why it deserves their sale.</p>
@@ -232,7 +232,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/02-mvp-identification")}>
-                <img src={"../../minimum-viable-product.jpg"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../MVP.png"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus – MVP identification</h5>
                   <p className="mb-0 p-18">Identify the minimum set of features that can gain maximum learning and has low cost of implementation.</p>
@@ -241,7 +241,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/07-technical-architecture")}>
-                <img src={"../../technical-architecture.jpg"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus - Technical Architecture</h5>
                   <p className="mb-0 p-18">Verify if the solution is technology feasible to implement with available resources</p>
@@ -250,7 +250,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("3-immerse/06-high-fidelity-prototype")}>
-                <img src={"../../high-fidelity-prototype.jpg"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../HFP.png"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Immerse – High fidelity prototype</h5>
                   <p className="mb-0 p-18">Build a detailed prototype to demonstrate how the final product would operate and obtain feedback</p>
@@ -259,7 +259,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/12-growth-hacking-plan")}>
-                <img src={"../../growth-hacking.jpg"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../GHP.png"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan – Growth hacking plan</h5>
                   <p className="mb-0 p-18">Exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
@@ -268,7 +268,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/04-delivery-pipeline")}>
-                <img src={"../../ci-cd-pipeline.jpg"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../DP.png"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan - Delivery Pipeline</h5>
                   <p className="mb-0 p-18">Setup source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
@@ -277,7 +277,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("5-build/09-data-privacy-protection")}>
-                <img src={"../../data-privacy.jpg"} alt="Build - Data Privacy Protection image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../DPP.png"} alt="Build - Data Privacy Protection image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Build - Data Privacy Protection</h5>
                   <p className="mb-0 p-18">Understand the data protection policies in target markets. Device strategies for data segregation and limiting access to production data.</p>
@@ -286,7 +286,7 @@ const IndexPage = () => {
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4">
               <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("7-harvest/13-win-lose-analysis")}>
-                <img src={"../../win-loss-analysis.jpg"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
+                <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Harvest – Win-loss Analysis</h5>
                   <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. Analyze these results with different demographics in mind.</p>
@@ -309,7 +309,11 @@ const IndexPage = () => {
                 <p className="text-white lead">
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
                   way can help someone else who is starting just like you did. Join our team of knowledge gurus.
-              </p>
+                </p>
+                <a href="https://github.com/winningproduct/learn-portal" target="_blank" className="btn btn-outline-secondary">
+                  <img src="../../github.png" style={{height:"20px", width:"auto"}} className="mr-2"/>
+                  Contribute
+                  </a>
               </div>
               <div className="col col-sm-12 col-md-5 offset-md-1 my-5">
                 <div className="w-100 d-flex flex-row flex-wrap">
@@ -388,6 +392,36 @@ const IndexPage = () => {
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
                     <img className="rounded-circle" src={"../../git-nuwan.jpg"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-1.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-2.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-3.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-4.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-5.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-6.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-7.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-8.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-9.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
+                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
+                    <img className="rounded-circle" src={"../../git-10.png"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
+                  </div>
                 </div>
 
               </div>
@@ -398,50 +432,64 @@ const IndexPage = () => {
       <div className="container">
         <div className="row my-3">
           <div className="col col-sm-12 my-5">
-            <h3>What do you get in the WP Toolkit?</h3>
+            <h3>Become winning product certified</h3>
             <p className="lead">
-              Our community has built a complete toolkit to help you nurture your product to a win over the competition.
+              Winning Product certifications are organized in to three levels, Professional,Expert, and Ninja
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{ border: "1px solid #ECF0F1" }}>
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
                 <div>
-                  <img src={"../../learn.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
-                  <h5 className="twolineHeading">Learn to build a winning product</h5>
-                  <p className="p-18">Learn from the community’s best success stories</p>
+                  <img src={"../../level1.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <h5 className="twolineHeading">Professional Certification</h5>
+                  <p className="p-18 mb-0"><b>Recommended start</b></p>
+                  <p className="p-18">Ideal for individuals just starting in technology or thinking about a career change</p>
                 </div>
                 <div>
-                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>View Canvas</Link>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{ border: "1px solid #ECF0F1" }}>
-                <div>
-                  <img src={"../../build.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
-                  <h5 className="twolineHeading">Manage your product strategy</h5>
-                  <p className="p-18">Learn from the community’s best success stories</p>
-                </div>
-                <div>
-                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Go to Strategy Tool</Link>
+                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Professional Certifications</Link>
                 </div>
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
-              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5" style={{ border: "1px solid #ECF0F1" }}>
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
                 <div>
-                  <img src={"../../certify.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
-                  <h5 className="twolineHeading">Get your team certified</h5>
-                  <p className="p-18">Get your team certified on product building. Let’s help them think business first</p>
+                  <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <h5 className="twolineHeading">Expert Certification</h5>
+                  <p className="p-18 mb-0"><b>Two years of comprehensive working experience</b></p>
+                  <p className="p-18">It is helpful to have related Professional certification but is not required</p>
                 </div>
                 <div>
-                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>View Certifications</Link>
+                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Expert Certifications</Link>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
+              <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
+                <div>
+                  <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <h5 className="twolineHeading">Ninja Certification</h5>
+                  <p className="p-18 mb-0"><b>Two to five years of deep Professional experience</b></p>
+                  <p className="p-18">Ninja certification requires a Professional level certification</p>
+                </div>
+                <div>
+                  <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Ninja Certifications</Link>
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
+      </div>
+      <div className="container-fluid border-top py-4 mt-5">
+        <div className="row">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-sm-12 text-center">
+                <p className="mb-0"><b>Hosted with ❤️ by <a href="https://www.99xtechnology.com/" target="_blank" style={{color:"#8E44AD"}}>99X Technology</a></b></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
