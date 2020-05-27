@@ -104,7 +104,6 @@ const IndexPage = () => {
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <title>wheel-new</title>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g id="wheel-new" transform="translate(0.508789, 0.000000)">
                       <g id="step-8" opacity="0.5" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{ cursor: "pointer" }} className={`default ${(stage === "RETIRE" ? "active" : "")}`}>
@@ -232,7 +231,7 @@ const IndexPage = () => {
 
         <div className="row my-5">
           <div className="col-12 col-sm-12 mt-5 mb-3">
-            <h3>Why products requires a specialized process</h3>
+            <h3>Why products requires a specialized process?</h3>
             <p className="lead">
             Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
           </p>
@@ -261,7 +260,7 @@ const IndexPage = () => {
                 <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus - Technical Architecture</h5>
-                  <p className="mb-0 p-18">Verify if the solution is technology feasible to implement with available resources</p>
+                  <p className="mb-0 p-18">Verify if the solution is technically feasible to implement with available resources</p>
                 </div>
               </div>
             </div>
@@ -325,7 +324,7 @@ const IndexPage = () => {
                 <h3 className="text-white mb-4">Contribute your knowledge</h3>
                 <p className="text-white lead">
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
-                  way can help someone else who is starting just like you did. Join our team of knowledge gurus.
+                  way can help someone else who is starting just like you. Join our team of knowledge gurus.
                 </p>
                 <a href="https://github.com/winningproduct/learn-portal" target="_blank" className="btn btn-outline-secondary">
                   <img src="../../github.png" style={{height:"20px", width:"auto"}} className="mr-2"/>
@@ -451,7 +450,7 @@ const IndexPage = () => {
           <div className="col col-sm-12 mb-3">
             <h3>Become winning product certified</h3>
             <p className="lead">
-              Winning Product certifications are organized in to three levels, Professional,Expert, and Ninja
+              Winning Product certifications are organized into three levels.
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
@@ -460,7 +459,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level1.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Professional Certification</h5>
-                  <p className="p-18 mb-0"><b>Recommended start</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Recommended start</b></p>
                   <p className="p-18">Ideal for individuals just starting in technology or thinking about a career change</p>
                 </div>
                 <div>
@@ -473,7 +472,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Expert Certification</h5>
-                  <p className="p-18 mb-0"><b>Two years of comprehensive working experience</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>With comprehensive working experience</b></p>
                   <p className="p-18">It is helpful to have related Professional certification but is not required</p>
                 </div>
                 <div>
@@ -486,8 +485,8 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Ninja Certification</h5>
-                  <p className="p-18 mb-0"><b>Two to five years of deep Professional experience</b></p>
-                  <p className="p-18">Ninja certification requires a Professional level certification</p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Comprehensive working experience with impact</b></p>
+                  <p className="p-18">Ninja certification requires a expert level certification</p>
                 </div>
                 <div>
                   <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Ninja Certifications</Link>
