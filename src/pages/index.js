@@ -104,7 +104,6 @@ const IndexPage = () => {
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <title>wheel-new</title>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g id="wheel-new" transform="translate(0.508789, 0.000000)">
                       <g id="step-8" opacity="0.5" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{ cursor: "pointer" }} className={`default ${(stage === "RETIRE" ? "active" : "")}`}>
