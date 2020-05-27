@@ -75,6 +75,15 @@ const IndexPage = () => {
                   </ul>
                 </div>
               </nav>
+              <div className="mobileNav d-lg-none">
+                <div>
+                  <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
+                  <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                  <Link className="nav-link px-3" to="/contact">Manage</Link>
+                  <Link className="nav-link px-3" to="/contact">Certify</Link>
+                </div>
+                
+              </div>
             </div>
           </div>
         </div>
@@ -233,7 +242,7 @@ const IndexPage = () => {
           <div className="col-12 col-sm-12 mt-5 mb-3">
             <h3>Why products requires a specialized process?</h3>
             <p className="lead">
-            Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
+            Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition. Our learning site has many strategic actions on this, here are some featured content areas.
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
@@ -242,7 +251,7 @@ const IndexPage = () => {
                 <img src={"../../VP.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Explore – Value proposition</h5>
-                  <p className="mb-0 p-18">The primary value that the company promises to deliver to customers. This is the declaration of intent or company's brand statement to consumers to communicate what the company stands for, how it operates, and why it deserves their sale.</p>
+                  <p className="mb-0 p-18">Value proposition is the primary value that the company promises to deliver to customers. This is the declaration of intent …</p>
                 </div>
               </div>
             </div>
@@ -251,7 +260,7 @@ const IndexPage = () => {
                 <img src={"../../MVP.png"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus – MVP identification</h5>
-                  <p className="mb-0 p-18">Identify the minimum set of features that can gain maximum learning and has low cost of implementation.</p>
+                  <p className="mb-0 p-18">MVP is the minimum set features that can gain maximum learning and has low cost of implementation.</p>
                 </div>
               </div>
             </div>
@@ -260,7 +269,7 @@ const IndexPage = () => {
                 <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus - Technical Architecture</h5>
-                  <p className="mb-0 p-18">Verify if the solution is technically feasible to implement with available resources</p>
+                  <p className="mb-0 p-18">Is the solution is technically feasible to implement with available resources?</p>
                 </div>
               </div>
             </div>
@@ -269,7 +278,7 @@ const IndexPage = () => {
                 <img src={"../../HFP.png"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Immerse – High fidelity prototype</h5>
-                  <p className="mb-0 p-18">Build a detailed prototype to demonstrate how the final product would operate and obtain feedback</p>
+                  <p className="mb-0 p-18">High fidelity prototype is a detailed prototype to demonstrate how the final product would operate</p>
                 </div>
               </div>
             </div>
@@ -278,7 +287,7 @@ const IndexPage = () => {
                 <img src={"../../GHP.png"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan – Growth hacking plan</h5>
-                  <p className="mb-0 p-18">Exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
+                  <p className="mb-0 p-18">Growth hacking is exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
                 </div>
               </div>
             </div>
@@ -287,7 +296,7 @@ const IndexPage = () => {
                 <img src={"../../DP.png"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan - Delivery Pipeline</h5>
-                  <p className="mb-0 p-18">Setup source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
+                  <p className="mb-0 p-18">Setup of the source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
                 </div>
               </div>
             </div>
@@ -305,7 +314,7 @@ const IndexPage = () => {
                 <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Harvest – Win-loss Analysis</h5>
-                  <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. Analyze these results with different demographics in mind.</p>
+                  <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. </p>
                 </div>
               </div>
             </div>
