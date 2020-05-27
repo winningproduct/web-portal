@@ -459,7 +459,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level1.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Professional Certification</h5>
-                  <p className="p-18 mb-0" style={{ height: "48px" }}><b>Recommended start</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Recommended start</b></p>
                   <p className="p-18">Ideal for individuals just starting in technology or thinking about a career change</p>
                 </div>
                 <div>
@@ -472,7 +472,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Expert Certification</h5>
-                  <p className="p-18 mb-0" style={{ height: "48px" }}><b>With comprehensive working experience</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>With comprehensive working experience</b></p>
                   <p className="p-18">It is helpful to have related Professional certification but is not required</p>
                 </div>
                 <div>
@@ -485,7 +485,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Ninja Certification</h5>
-                  <p className="p-18 mb-0" style={{ height: "48px" }}><b>Comprehensive working experience with impact</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Comprehensive working experience with impact</b></p>
                   <p className="p-18">Ninja certification requires a expert level certification</p>
                 </div>
                 <div>
