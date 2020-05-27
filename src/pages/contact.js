@@ -165,7 +165,8 @@ const Contact = () => (
           </div>
         </div>
         <div className="col-12 col-md-8 d-flex flex-column justify-content-center contactForm px-5">
-          <h3>Contact us</h3>
+          <h3>Interested to get more information? </h3>
+          <p className="lead">Drop your contact here and we'll get in touch.</p>
           <form name="WP Contact Form" method="POST" data-netlify="true" style={{maxWidth:"520px"}}>
             <input type="hidden" name="form-name" value="WP Contact Form" />
             <div className="form-group">

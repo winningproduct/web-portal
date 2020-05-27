@@ -75,6 +75,14 @@ const IndexPage = () => {
                   </ul>
                 </div>
               </nav>
+              <div className="mobileNav d-lg-none">
+                <div>
+                  <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
+                  <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                  <Link className="nav-link px-3" to="/contact">Manage</Link>
+                  <Link className="nav-link px-3" to="/contact">Certify</Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -104,7 +112,6 @@ const IndexPage = () => {
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <title>wheel-new</title>
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g id="wheel-new" transform="translate(0.508789, 0.000000)">
                       <g id="step-8" opacity="0.5" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{ cursor: "pointer" }} className={`default ${(stage === "RETIRE" ? "active" : "")}`}>
@@ -182,14 +189,98 @@ const IndexPage = () => {
           </div>
         </div>
 
-        <div className="row my-5">
+        <div className="row mt-5 mb-3">
           <div className="col-12 col-sm-12 mt-5 mb-3">
+            <h3>Why products requires a specialized process?</h3>
+            <p className="lead">
+            Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition. Our learning site has many strategic actions on this, here are some featured content areas.
+          </p>
+          </div>
+          <div className="d-flex flex-row flex-wrap">
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("1-explore/05-value-proposition")}>
+                <img src={"../../VP.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Explore – Value proposition</h5>
+                  <p className="mb-0 p-18">Value proposition is the primary value that the company promises to deliver to customers. This is the declaration of intent …</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("2-focus/02-mvp-identification")}>
+                <img src={"../../MVP.png"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Focus – MVP identification</h5>
+                  <p className="mb-0 p-18">MVP is the minimum set features that can gain maximum learning and has low cost of implementation.</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("2-focus/07-technical-architecture")}>
+                <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Focus - Technical Architecture</h5>
+                  <p className="mb-0 p-18">Is the solution is technically feasible to implement with available resources?</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("3-immerse/06-high-fidelity-prototype")}>
+                <img src={"../../HFP.png"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Immerse – High fidelity prototype</h5>
+                  <p className="mb-0 p-18">High fidelity prototype is a detailed prototype to demonstrate how the final product would operate</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("4-plan/12-growth-hacking-plan")}>
+                <img src={"../../GHP.png"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Plan – Growth hacking plan</h5>
+                  <p className="mb-0 p-18">Growth hacking is exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("4-plan/04-delivery-pipeline")}>
+                <img src={"../../DP.png"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Plan - Delivery Pipeline</h5>
+                  <p className="mb-0 p-18">Setup of the source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("5-build/09-data-privacy-protection")}>
+                <img src={"../../DPP.png"} alt="Build - Data Privacy Protection image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Build - Data Privacy Protection</h5>
+                  <p className="mb-0 p-18">Understand the data protection policies in target markets. Device strategies for data segregation and limiting access to production data.</p>
+                </div>
+              </div>
+            </div>
+            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4">
+              <div className="col-12 col-sm-12 px-0 blogPreview"  onClick={()=> openLearnPortal("7-harvest/11-win-lose-analysis")}>
+                <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
+                <div className="px-4 py-4">
+                  <h5>Harvest – Win-loss Analysis</h5>
+                  <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+        <div className="row my-5">
+          <div className="col-12 col-sm-12 mb-3">
             <h3>What do you get in the WP Toolkit?</h3>
             <p className="lead">
               Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
           </div>
-          <div className="d-flex flex-row flex-wrap">
+          <div className="d-flex flex-row flex-wrap mb-5">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
               <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between px-0">
                 <div>
@@ -230,89 +321,7 @@ const IndexPage = () => {
 
         </div>
 
-        <div className="row my-5">
-          <div className="col-12 col-sm-12 mt-5 mb-3">
-            <h3>Why products requires a specialized process</h3>
-            <p className="lead">
-            Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
-          </p>
-          </div>
-          <div className="d-flex flex-row flex-wrap">
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("1-explore/05-value-proposition")}>
-                <img src={"../../VP.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Explore – Value proposition</h5>
-                  <p className="mb-0 p-18">The primary value that the company promises to deliver to customers. This is the declaration of intent or company's brand statement to consumers to communicate what the company stands for, how it operates, and why it deserves their sale.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/02-mvp-identification")}>
-                <img src={"../../MVP.png"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Focus – MVP identification</h5>
-                  <p className="mb-0 p-18">Identify the minimum set of features that can gain maximum learning and has low cost of implementation.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/07-technical-architecture")}>
-                <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Focus - Technical Architecture</h5>
-                  <p className="mb-0 p-18">Verify if the solution is technology feasible to implement with available resources</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("3-immerse/06-high-fidelity-prototype")}>
-                <img src={"../../HFP.png"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Immerse – High fidelity prototype</h5>
-                  <p className="mb-0 p-18">Build a detailed prototype to demonstrate how the final product would operate and obtain feedback</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/12-growth-hacking-plan")}>
-                <img src={"../../GHP.png"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Plan – Growth hacking plan</h5>
-                  <p className="mb-0 p-18">Exploring low cost and smarter options to gain a rapid market reach in a short time for growth through referrals and up-sales.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/04-delivery-pipeline")}>
-                <img src={"../../DP.png"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Plan - Delivery Pipeline</h5>
-                  <p className="mb-0 p-18">Setup source control flow, code integration process, automation strategy (CI/CD/Tests), scaling, etc.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("5-build/09-data-privacy-protection")}>
-                <img src={"../../DPP.png"} alt="Build - Data Privacy Protection image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Build - Data Privacy Protection</h5>
-                  <p className="mb-0 p-18">Understand the data protection policies in target markets. Device strategies for data segregation and limiting access to production data.</p>
-                </div>
-              </div>
-            </div>
-            <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("7-harvest/13-win-lose-analysis")}>
-                <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
-                <div className="px-4 py-4">
-                  <h5>Harvest – Win-loss Analysis</h5>
-                  <p className="mb-0 p-18">Do a win loss analysis on your leads to understand why you lost and what are the strong points in your application. Analyze these results with different demographics in mind.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        
       </div>
       <div className="container-fluid">
         <div
@@ -325,7 +334,7 @@ const IndexPage = () => {
                 <h3 className="text-white mb-4">Contribute your knowledge</h3>
                 <p className="text-white lead">
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
-                  way can help someone else who is starting just like you did. Join our team of knowledge gurus.
+                  way can help someone else who is starting just like you. Join our team of knowledge gurus.
                 </p>
                 <a href="https://github.com/winningproduct/learn-portal" target="_blank" className="btn btn-outline-secondary">
                   <img src="../../github.png" style={{height:"20px", width:"auto"}} className="mr-2"/>
@@ -451,7 +460,7 @@ const IndexPage = () => {
           <div className="col col-sm-12 mb-3">
             <h3>Become winning product certified</h3>
             <p className="lead">
-              Winning Product certifications are organized in to three levels, Professional,Expert, and Ninja
+              Winning Product certifications are organized into three levels.
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
@@ -460,7 +469,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level1.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Professional Certification</h5>
-                  <p className="p-18 mb-0"><b>Recommended start</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Recommended start</b></p>
                   <p className="p-18">Ideal for individuals just starting in technology or thinking about a career change</p>
                 </div>
                 <div>
@@ -473,7 +482,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Expert Certification</h5>
-                  <p className="p-18 mb-0"><b>Two years of comprehensive working experience</b></p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>With comprehensive working experience</b></p>
                   <p className="p-18">It is helpful to have related Professional certification but is not required</p>
                 </div>
                 <div>
@@ -486,8 +495,8 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Ninja Certification</h5>
-                  <p className="p-18 mb-0"><b>Two to five years of deep Professional experience</b></p>
-                  <p className="p-18">Ninja certification requires a Professional level certification</p>
+                  <p className="p-18 mb-2" style={{ height: "48px" }}><b>Comprehensive working experience with impact</b></p>
+                  <p className="p-18">Ninja certification requires a expert level certification</p>
                 </div>
                 <div>
                   <Link to="/contact" className="btn btn-outline-primary" style={{ width: "220px" }}>Ninja Certifications</Link>
