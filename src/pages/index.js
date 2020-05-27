@@ -232,7 +232,7 @@ const IndexPage = () => {
 
         <div className="row my-5">
           <div className="col-12 col-sm-12 mt-5 mb-3">
-            <h3>Why products requires a specialized process</h3>
+            <h3>Why products requires a specialized process?</h3>
             <p className="lead">
             Product management is different to bespoke application development. Learn how a specialized process keeps your product different from the competition
           </p>
@@ -261,7 +261,7 @@ const IndexPage = () => {
                 <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus - Technical Architecture</h5>
-                  <p className="mb-0 p-18">Verify if the solution is technology feasible to implement with available resources</p>
+                  <p className="mb-0 p-18">Verify if the solution is technically feasible to implement with available resources</p>
                 </div>
               </div>
             </div>
