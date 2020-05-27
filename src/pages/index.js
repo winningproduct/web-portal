@@ -324,7 +324,7 @@ const IndexPage = () => {
                 <h3 className="text-white mb-4">Contribute your knowledge</h3>
                 <p className="text-white lead">
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
-                  way can help someone else who is starting just like you did. Join our team of knowledge gurus.
+                  way can help someone else who is starting just like you. Join our team of knowledge gurus.
                 </p>
                 <a href="https://github.com/winningproduct/learn-portal" target="_blank" className="btn btn-outline-secondary">
                   <img src="../../github.png" style={{height:"20px", width:"auto"}} className="mr-2"/>
@@ -450,7 +450,7 @@ const IndexPage = () => {
           <div className="col col-sm-12 mb-3">
             <h3>Become winning product certified</h3>
             <p className="lead">
-              Winning Product certifications are organized in to three levels, Professional,Expert, and Ninja
+              Winning Product certifications are organized into three levels.
           </p>
           </div>
           <div className="d-flex flex-row flex-wrap">
@@ -472,7 +472,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Expert Certification</h5>
-                  <p className="p-18 mb-0"><b>Two years of comprehensive working experience</b></p>
+                  <p className="p-18 mb-0"><b>With comprehensive working experience</b></p>
                   <p className="p-18">It is helpful to have related Professional certification but is not required</p>
                 </div>
                 <div>
@@ -485,7 +485,7 @@ const IndexPage = () => {
                 <div>
                   <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Ninja Certification</h5>
-                  <p className="p-18 mb-0"><b>Two to five years of deep Professional experience</b></p>
+                  <p className="p-18 mb-0"><b>With deep Professional experience</b></p>
                   <p className="p-18">Ninja certification requires a Professional level certification</p>
                 </div>
                 <div>
