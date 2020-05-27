@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Contact = () => (
+const Contact = () => {
+  const [toggleNavbar, setToggleNavbar] = useState(false);
+  return (
   <Layout>
     <SEO title="Contact Us" />
     <div className="container-fluid">
@@ -16,7 +18,7 @@ const Contact = () => (
                 <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy" />
                 <span className="ml-3 text-dark h6">WinningProduct</span>
               </Link>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button onClick={()=> setToggleNavbar(!toggleNavbar)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
@@ -36,6 +38,14 @@ const Contact = () => (
                 </ul>
               </div>
             </nav>
+            <div className={`mobileNav d-lg-none ${(toggleNavbar ? "toggle" : "")}`}>
+                <div>
+                  <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
+                  <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                  <Link className="nav-link px-3" to="/contact">Manage</Link>
+                  <Link className="nav-link px-3" to="/contact">Certify</Link>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -184,6 +194,7 @@ const Contact = () => (
       </div>
     </div>
   </Layout>
-)
+  )
+}
 
 export default Contact

@@ -154,3 +154,11 @@ a {
 .blogPreview:hover{
   border:1px solid #8E44AD;
 }
+
+.toggle{
+  display: block !important;
+}
+
+.mobileNav{
+  display: none;
+}
