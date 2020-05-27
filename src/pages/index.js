@@ -281,7 +281,7 @@ const IndexPage = () => {
               Our community has built a complete toolkit to help you nurture your product to a win over the competition.
           </p>
           </div>
-          <div className="d-flex flex-row flex-wrap">
+          <div className="d-flex flex-row flex-wrap mb-5">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
               <div className="col-12 col-sm-12 text-center d-flex flex-column justify-content-between px-0">
                 <div>
