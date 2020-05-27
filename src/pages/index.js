@@ -247,7 +247,7 @@ const IndexPage = () => {
           </div>
           <div className="d-flex flex-row flex-wrap">
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("1-explore/05-value-proposition")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("1-explore/05-value-proposition")}>
                 <img src={"../../VP.png"} alt="Explore – Value proposition image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Explore – Value proposition</h5>
@@ -256,7 +256,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/02-mvp-identification")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("2-focus/02-mvp-identification")}>
                 <img src={"../../MVP.png"} alt="Focus – MVP identification image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus – MVP identification</h5>
@@ -265,7 +265,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("2-focus/07-technical-architecture")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("2-focus/07-technical-architecture")}>
                 <img src={"../../TA.png"} alt="Focus - Technical Architecture image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Focus - Technical Architecture</h5>
@@ -274,7 +274,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("3-immerse/06-high-fidelity-prototype")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("3-immerse/06-high-fidelity-prototype")}>
                 <img src={"../../HFP.png"} alt="Immerse – High fidelity prototype image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Immerse – High fidelity prototype</h5>
@@ -283,7 +283,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/12-growth-hacking-plan")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("4-plan/12-growth-hacking-plan")}>
                 <img src={"../../GHP.png"} alt="Plan – Growth hacking plan image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan – Growth hacking plan</h5>
@@ -292,7 +292,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("4-plan/04-delivery-pipeline")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("4-plan/04-delivery-pipeline")}>
                 <img src={"../../DP.png"} alt="Plan - Delivery Pipeline image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Plan - Delivery Pipeline</h5>
@@ -301,7 +301,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0  mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("5-build/09-data-privacy-protection")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview" onClick={()=> openLearnPortal("5-build/09-data-privacy-protection")}>
                 <img src={"../../DPP.png"} alt="Build - Data Privacy Protection image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Build - Data Privacy Protection</h5>
@@ -310,7 +310,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("7-harvest/11-win-lose-analysis")}>
+              <div className="col-12 col-sm-12 px-0 blogPreview"  onClick={()=> openLearnPortal("7-harvest/11-win-lose-analysis")}>
                 <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Harvest – Win-loss Analysis</h5>
