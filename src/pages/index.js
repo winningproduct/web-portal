@@ -4,6 +4,7 @@ import Focus from "../components/stages/Focus";
 import Immerse from "../components/stages/Immerse";
 import Plan from "../components/stages/Plan";
 import Build from "../components/stages/Build";
+import Optimize from "../components/stages/Optimize";
 import Harvest from "../components/stages/Harvest";
 import Retire from "../components/stages/Retire";
 import Typist from 'react-typist';
@@ -27,6 +28,8 @@ const IndexPage = () => {
         return <Plan learn={openLearnPortal} />;
       case 'BUILD':
         return <Build learn={openLearnPortal} />;
+      case 'OPTIMIZE':
+        return <Optimize learn={openLearnPortal} />;
       case 'HARVEST':
         return <Harvest learn={openLearnPortal} />;
       case 'RETIRE':
