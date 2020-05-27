@@ -66,7 +66,7 @@ const IndexPage = () => {
                       <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                      <a className="nav-link px-3" href="https://learn.winningproduct.com">Learn</a>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link px-3" to="/contact">Manage</Link>
@@ -80,7 +80,7 @@ const IndexPage = () => {
               <div className={`mobileNav d-lg-none ${(toggleNavbar ? "toggle" : "")}`}>
                 <div>
                   <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
-                  <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                  <a className="nav-link px-3" href="https://learn.winningproduct.com">Learn</a>
                   <Link className="nav-link px-3" to="/contact">Manage</Link>
                   <Link className="nav-link px-3" to="/contact">Certify</Link>
                 </div>
@@ -338,7 +338,7 @@ const IndexPage = () => {
                   Help us improve the knowledge model with what you learnt during the process. What you learnt the hard
                   way can help someone else who is starting just like you. Join our team of knowledge gurus.
                 </p>
-                <a href="https://github.com/winningproduct/learn-portal" target="_blank" className="btn btn-outline-secondary">
+                <a href="https://github.com/winningproduct/learn-portal"  className="btn btn-outline-secondary">
                   <img src="../../github.png" style={{height:"20px", width:"auto"}} className="mr-2"/>
                   Contribute
                   </a>
@@ -514,7 +514,7 @@ const IndexPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-12 col-sm-12 text-center">
-                <p className="mb-0"><b>Hosted with ❤️ by <a href="https://www.99xtechnology.com/" target="_blank" style={{color:"#8E44AD"}}>99X Technology</a></b></p>
+                <p className="mb-0"><b>Hosted with ❤️ by <a href="https://www.99xtechnology.com/" style={{color:"#8E44AD"}}>99X Technology</a></b></p>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const Contact = () => {
                     <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                    <a className="nav-link px-3" href="https://learn.winningproduct.com">Learn</a>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link px-3" to="/contact">Manage</Link>
@@ -41,7 +41,7 @@ const Contact = () => {
             <div className={`mobileNav d-lg-none ${(toggleNavbar ? "toggle" : "")}`}>
                 <div>
                   <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
-                  <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
+                  <a className="nav-link px-3" href="https://learn.winningproduct.com">Learn</a>
                   <Link className="nav-link px-3" to="/contact">Manage</Link>
                   <Link className="nav-link px-3" to="/contact">Certify</Link>
                 </div>
