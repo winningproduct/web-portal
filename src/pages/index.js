@@ -82,7 +82,6 @@ const IndexPage = () => {
                   <Link className="nav-link px-3" to="/contact">Manage</Link>
                   <Link className="nav-link px-3" to="/contact">Certify</Link>
                 </div>
-                
               </div>
             </div>
           </div>
