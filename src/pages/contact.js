@@ -100,9 +100,6 @@ const Contact = () => {
                     <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/22959475?s=400&u=f0d5fac27ce843d70d6bb1eb26b88816cc916358&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
-                    <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/57340100?s=400&u=23f60ecaa0256e354bc844886ad10ddf8f773954&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
-                  </div>
-                  <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
                     <img className="rounded-circle" src={"https://avatars3.githubusercontent.com/u/11753507?s=400&u=696875cc7412ee177b7edcf68a9a7546754931c1&v=4"} alt="contributor avatar image" style={{ width: "100%", height: "auto" }} />
                   </div>
                   <div className="px-1 mb-2" style={{ width: "10%", borderRadius: "50%" }}>
