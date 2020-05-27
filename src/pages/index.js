@@ -310,7 +310,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 mb-4 border-0 mb-4">
-              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("7-harvest/13-win-lose-analysis")}>
+              <div className="col-12 col-sm-12 px-0" style={{ border: "1px solid #ECF0F1", cursor: "pointer" }} onClick={()=> openLearnPortal("7-harvest/11-win-lose-analysis")}>
                 <img src={"../../WinLoss.png"} alt="Harvest – Win-loss Analysis image" style={{ width: "100%", height: "auto" }} />
                 <div className="px-4 py-4">
                   <h5>Harvest – Win-loss Analysis</h5>
