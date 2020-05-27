@@ -15,6 +15,8 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const [stage, setStage] = useState("EXPLORE");
+  const [toggleNavbar, setToggleNavbar] = useState(false);
+
   const LEARN_PORTAL_URL = "https://learn.winningproduct.com";
   const renderStage = () => {
     switch (stage) {
@@ -55,7 +57,7 @@ const IndexPage = () => {
                   <img src={"../../logo.svg"} className="d-inline-block align-top" alt="" loading="lazy" />
                   <span className="ml-3 text-dark h6">WinningProduct</span>
                 </Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button onClick={()=> setToggleNavbar(!toggleNavbar)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -75,7 +77,7 @@ const IndexPage = () => {
                   </ul>
                 </div>
               </nav>
-              <div className="mobileNav d-lg-none">
+              <div className={`mobileNav d-lg-none ${(toggleNavbar ? "toggle" : "")}`}>
                 <div>
                   <Link className="nav-link px-3" to="/">Get Start<span className="sr-only">(current)</span></Link>
                   <a className="nav-link px-3" target="_blank" href="https://learn.winningproduct.com">Learn</a>
