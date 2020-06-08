@@ -116,6 +116,13 @@ const IndexPage = () => {
                 >
                   <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g id="wheel-new" transform="translate(0.508789, 0.000000)">
+                    <g id="center" transform="translate(112.000000, 111.000000)">
+                <circle id="Oval" stroke="#8E44AD" stroke-width="4" cx="125" cy="125" r="125"></circle>
+                <text id="PRODUCT-MINDSET" font-family="Arial-BoldMT, Arial" font-size="32" font-weight="bold" letter-spacing="0.666666667" fill="#8E44AD">
+                    <tspan x="43.0572917" y="118">PRODUCT </tspan>
+                    <tspan x="50.1666667" y="154">MINDSET</tspan>
+                </text>
+            </g>
                       <g id="step-8" opacity="0.5" transform="translate(69.491211, 0.000000)" onClick={() => setStage("RETIRE")} style={{ cursor: "pointer" }} className={`default ${(stage === "RETIRE" ? "active" : "")}`}>
                         <path d="M86.1410506,91.3762552 C110.404959,77.6492296 137.777556,70.3888756 165.641477,70.2894271 C165.431035,70.2894271 166.155892,70.2894271 165.968832,70.2894271 L165.968832,0 C103.730749,0.447446217 44.1467872,25.3201453 0,69.2819453 L49.6176193,119 C60.4708211,108.157996 72.7604187,98.8630118 86.1410506,91.3762552 Z" id="Path" fill="#FF715E" fillRule="nonzero"></path>
                         <text id="Retire" transform="translate(90.028320, 53.859375) rotate(338.000000) translate(-90.028320, -53.859375) " fontFamily="Futura-Bold, Futura" fontSize="18" fontWeight="bold" fill="#FFFFFF">
@@ -466,7 +473,7 @@ const IndexPage = () => {
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
               <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
                 <div>
-                  <img src={"../../level1.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../level1.svg"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Professional Certification</h5>
                   <p className="p-18 mb-2" style={{ height: "48px" }}><b>Recommended start</b></p>
                   <p className="p-18">Ideal for individuals just starting in technology or thinking about a career change</p>
@@ -479,7 +486,7 @@ const IndexPage = () => {
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
               <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
                 <div>
-                  <img src={"../../level2.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../level2.svg"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Expert Certification</h5>
                   <p className="p-18 mb-2" style={{ height: "48px" }}><b>With comprehensive working experience</b></p>
                   <p className="p-18">It is helpful to have related Professional certification but is not required</p>
@@ -492,7 +499,7 @@ const IndexPage = () => {
             <div className="card col-12 col-sm-12 col-md-12 col-lg-4 border-0 mb-4 mb-lg-0">
               <div className="col-12 col-sm-12 text-center d-flex flex-column justfy-content-around py-5">
                 <div>
-                  <img src={"../../level3.png"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
+                  <img src={"../../level3.svg"} alt="Explore – Value proposition image" style={{ width: "auto", height: "60px" }} className="mb-3" />
                   <h5 className="twolineHeading">Ninja Certification</h5>
                   <p className="p-18 mb-2" style={{ height: "48px" }}><b>Comprehensive working experience with impact</b></p>
                   <p className="p-18">Ninja certification requires a expert level certification</p>
