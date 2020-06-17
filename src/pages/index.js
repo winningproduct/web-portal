@@ -20,13 +20,17 @@ const IndexPage = () => {
 
   const LEARN_PORTAL_URL = "https://learn.winningproduct.com"
   const renderStage = () => {
-    var windowWidth = window.innerWidth
-    const isMobileDevice = windowWidth <= 768
+    // Window is not available in server side rendering.
+    if (typeof window !== `undefined`) {
+      var windowWidth = window.innerWidth
+      const isMobileDevice = windowWidth <= 768
 
-    if (isMobileDevice) {
-      handleMobileViewSvgClick(stage)
-      return
+      if (isMobileDevice) {
+        handleMobileViewSvgClick(stage)
+        return
+      }
     }
+
     switch (stage) {
       case "EXPLORE":
         return <Explore learn={openLearnPortal} />
