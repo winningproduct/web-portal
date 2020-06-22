@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Typist from "react-typist"
 import { Link } from "gatsby"
 import SiteConfig from "../../site-config"
+import StageLayout from "../components/stages/Stages"
 import Explore from "../components/stages/Explore"
 import Focus from "../components/stages/Focus"
 import Immerse from "../components/stages/Immerse"
@@ -31,26 +32,28 @@ const IndexPage = () => {
       }
     }
 
-    switch (stage) {
-      case "EXPLORE":
-        return <Explore learn={openLearnPortal} />
-      case "FOCUS":
-        return <Focus learn={openLearnPortal} />
-      case "IMMERSE":
-        return <Immerse learn={openLearnPortal} />
-      case "PLAN":
-        return <Plan learn={openLearnPortal} />
-      case "BUILD":
-        return <Build learn={openLearnPortal} />
-      case "OPTIMIZE":
-        return <Optimize learn={openLearnPortal} />
-      case "HARVEST":
-        return <Harvest learn={openLearnPortal} />
-      case "RETIRE":
-        return <Retire learn={openLearnPortal} />
-      default:
-        return <Explore learn={openLearnPortal} />
-    }
+    return <StageLayout learn={openLearnPortal} stage={stage} />
+
+    // switch (stage) {
+    //   case "EXPLORE":
+    //     return <StageLayout learn={openLearnPortal} stage={"EXPLORE"} />
+    //   case "FOCUS":
+    //     return <Focus learn={openLearnPortal} />
+    //   case "IMMERSE":
+    //     return <Immerse learn={openLearnPortal} />
+    //   case "PLAN":
+    //     return <Plan learn={openLearnPortal} />
+    //   case "BUILD":
+    //     return <Build learn={openLearnPortal} />
+    //   case "OPTIMIZE":
+    //     return <Optimize learn={openLearnPortal} />
+    //   case "HARVEST":
+    //     return <Harvest learn={openLearnPortal} />
+    //   case "RETIRE":
+    //     return <Retire learn={openLearnPortal} />
+    //   default:
+    //     return <Explore learn={openLearnPortal} />
+    // }
   }
 
   const handleMobileViewSvgClick = stage => {
