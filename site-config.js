@@ -479,6 +479,7 @@ module.exports = {
       subTitle: "Learn from the community’s best success stories",
       link: "/contact",
       buttonText: "Download Canvas",
+      buttonStyle: { width: "100%", height: "auto" },
     },
     {
       image: "../../manage.png",
@@ -486,6 +487,7 @@ module.exports = {
       subTitle: "Learn from the community’s best success stories",
       link: "/contact",
       buttonText: "Go to Strategy Tool",
+      buttonStyle: { width: "220px" },
     },
     {
       image: "../../learnNew.png",
@@ -493,6 +495,155 @@ module.exports = {
       subTitle: "Learn from the community’s best success stories",
       link: "/contact",
       buttonText: "  Download Canvas",
+      buttonStyle: { width: "100%", height: "auto" },
+    },
+  ],
+  Contributors: [
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/2338919?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/36729333?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/1892961?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/33232105?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/63349272?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/2035004?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/5242449?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/57340100?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/42619922?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/628163?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/19371972?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/22959475?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/11753507?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/17847364?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/9572090?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/10953143?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image:
+        "https://avatars3.githubusercontent.com/u/27477126?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+    },
+    {
+      image: "../../git-amila.jpg",
+    },
+    {
+      image: "../../git-aravinthan.jpg",
+    },
+    {
+      image: "../../git-arshad.jpg",
+    },
+    {
+      image: "../../git-chinthaka.jpg",
+    },
+    {
+      image: "../../git-helani.jpeg",
+    },
+    {
+      image: "../../git-kavindi.jpeg",
+    },
+    {
+      image: "./../git-nuwan.jpg",
+    },
+    {
+      image: "../../git-1.jpg",
+    },
+    {
+      image: "../../git-2.png",
+    },
+    {
+      image: "../../git-3.png",
+    },
+    {
+      image: "../../git-4.jpg",
+    },
+    {
+      image: "../../git-5.jpg",
+    },
+    {
+      image: "../../git-6.png",
+    },
+    {
+      image: "../../git-7.jpg",
+    },
+    {
+      image: "../../git-8.jpg",
+    },
+    {
+      image: "../../git-9.png",
+    },
+    {
+      image: "../../git-10.png",
+    },
+  ],
+  Certifications: [
+    {
+      image: "../../level1.svg",
+      title: "Professional Certification",
+      subTitle: "Recommended start",
+      description:
+        "Ideal for individuals just starting in technology or" +
+        "thinking about a career change",
+      buttonText: "Professional Certifications",
+    },
+    {
+      image: "../../level2.svg",
+      title: "Expert Certification",
+      subTitle: "With comprehensive working experience",
+      description:
+        "It is helpful to have related Professional certification but" +
+        "is not required",
+      buttonText: "Expert Certifications",
+    },
+    {
+      image: "../../level3.svg",
+      title: "Ninja Certification",
+      subTitle: "Comprehensive working experience with impact",
+      description: "Ninja certification requires a expert level certification",
+      buttonText: "Ninja Certifications",
     },
   ],
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import { ExternalLinks } from "../utils/constants"
 
 const Header = () => {
   const [toggleNavbar, setToggleNavbar] = useState(false)
@@ -40,7 +41,8 @@ const Header = () => {
                   <li className="nav-item">
                     <a
                       className="nav-link px-3"
-                      href="https://learn.winningproduct.com/introduction"
+                      href={ExternalLinks.LEARN_PORTAL}
+                      target="_blank"
                     >
                       Learn
                     </a>
