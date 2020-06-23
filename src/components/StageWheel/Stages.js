@@ -1,11 +1,23 @@
-import React from "react"
+import React, { useRef, useEffect } from "react"
 
 import { Stages } from "../../../site-config"
 
-const Explore = ({ learn }) => {
+function usePrevious(value) {
+  const ref = useRef()
+  useEffect(() => {
+    ref.current = value
+  })
+  return ref.current
+}
+
+const StageLayout = ({ learn, stage }) => {
   const [expand, setExpanded] = React.useState(false)
-  const exploreNode = Stages.find(stg => stg.name === "EXPLORE")
-  const subtopics = exploreNode.learnPortalLinks.sub
+
+  const previousStage = usePrevious(stage)
+  console.log("dsds", previousStage)
+  const stageNode = Stages.find(stg => stg.name === stage)
+
+  const subtopics = stageNode.learnPortalLinks.sub
   return (
     <div
       style={{
@@ -16,9 +28,9 @@ const Explore = ({ learn }) => {
     >
       <div className="px-3 py-3">
         <p className="mb-0 lead" style={{ fontWeight: "400" }}>
-          Explore
+          {stageNode.title}
         </p>
-        <p className="mb-0 p-18">Consider diverse alternatives</p>
+        <p className="mb-0 p-18">{stageNode.subtitle}</p>
       </div>
       <div className="px-3">
         {subtopics.slice(0, 5).map(topic => (
@@ -31,7 +43,7 @@ const Explore = ({ learn }) => {
             }}
             className="d-flex align-items-center mb-0 px-3 mb-2"
             onClick={() =>
-              learn(`${exploreNode.learnPortalLinks.main}/${topic.link}`)
+              learn(`${stageNode.learnPortalLinks.main}/${topic.link}`)
             }
           >
             <p className="mb-0">{topic.title}</p>
@@ -49,7 +61,7 @@ const Explore = ({ learn }) => {
               }}
               className="d-flex align-items-center mb-0 px-3 mb-2"
               onClick={() =>
-                learn(`${exploreNode.learnPortalLinks.main}/${topic.link}`)
+                learn(`${stageNode.learnPortalLinks.main}/${topic.link}`)
               }
             >
               <p className="mb-0">{topic.title}</p>
@@ -75,14 +87,14 @@ const Explore = ({ learn }) => {
       <div
         className="py-3 mb-0 mt-5 text-center"
         style={{ backgroundColor: "#ffbf40", color: "#fff", cursor: "pointer" }}
-        onClick={() => learn(exploreNode.learnPortalLinks.main)}
+        onClick={() => learn(stageNode.learnPortalLinks.main)}
       >
         <p className="mb-0 text-center">
-          <span className="text-dark">{`LEARN ${exploreNode.name}`}</span>
+          <span className="text-dark">{`LEARN ${stageNode.name}`}</span>
         </p>
       </div>
     </div>
   )
 }
 
-export default Explore
+export default StageLayout
