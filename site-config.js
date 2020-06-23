@@ -403,4 +403,96 @@ module.exports = {
       },
     },
   ],
+  SpecializedProcess: [
+    {
+      image: "../../VP.png",
+      title: "Explore – Value proposition",
+      subTitle:
+        "Value proposition is the primary value that the company" +
+        "promises to deliver to customers. This is the declaration of" +
+        "intent …",
+      link: "1-explore/05-value-proposition",
+    },
+    {
+      image: "../../MVP.png",
+      title: "Focus – MVP identification",
+      subTitle:
+        "MVP is the minimum set features that can gain maximum" +
+        "learning and has low cost of implementation.",
+      link: "2-focus/02-mvp-identification",
+    },
+    {
+      image: "../../TA.png",
+      title: "Focus - Technical Architecture",
+      subTitle:
+        " Is the solution is technically feasible to implement with" +
+        "available resources?",
+      link: "2-focus/07-technical-architecture",
+    },
+    {
+      image: "../../HFP.png",
+      title: "Immerse – High fidelity prototype",
+      subTitle:
+        "High fidelity prototype is a detailed prototype to" +
+        "demonstrate how the final product would operate",
+      link: "3-immerse/06-high-fidelity-prototype",
+    },
+    {
+      image: "../../GHP.png",
+      title: "Plan – Growth hacking plan",
+      subTitle:
+        "Growth hacking is exploring low cost and smarter options to" +
+        "gain a rapid market reach in a short time for growth through" +
+        "referrals and up-sales.",
+      link: "4-plan/12-growth-hacking-plan",
+    },
+    {
+      image: "../../DP.png",
+      title: "Plan - Delivery Pipeline",
+      subTitle:
+        "Setup of the source control flow, code integration process," +
+        "automation strategy (CI/CD/Tests), scaling, etc.",
+      link: "4-plan/04-delivery-pipeline",
+    },
+    {
+      image: "../../DPP.png",
+      title: "Build - Data Privacy Protection",
+      subTitle:
+        "Understand the data protection policies in target markets." +
+        " Device strategies for data segregation and limiting access" +
+        " to production data.",
+      link: "5-build/09-data-privacy-protection",
+    },
+    {
+      image: "../../WinLoss.png",
+      title: "Harvest – Win-loss Analysis",
+      subTitle:
+        "Do a win loss analysis on your leads to understand why you" +
+        "lost and what are the strong points in your application.",
+      link: "7-harvest/11-win-lose-analysis",
+    },
+  ],
+  WpToolKit: [
+    {
+      image: "../../learnNew.png",
+      title: "Learn to build a winning product",
+      subTitle: "Learn from the community’s best success stories",
+      link: "/contact",
+      buttonText: "Download Canvas",
+    },
+    {
+      image: "../../manage.png",
+      title: "Manage your product strategy",
+      subTitle: "Learn from the community’s best success stories",
+      link: "/contact",
+      buttonText: "Go to Strategy Tool",
+    },
+    {
+      image: "../../learnNew.png",
+      title: "Learn to build a winning product",
+      subTitle: "Learn from the community’s best success stories",
+      link: "/contact",
+      buttonText: "  Download Canvas",
+    },
+  ],
 }
