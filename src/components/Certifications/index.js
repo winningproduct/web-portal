@@ -19,7 +19,7 @@ const Certifications = () => {
                 <div>
                   <img
                     src={cert.image}
-                    alt={`${cert.title} image`}
+                    alt={`${cert.title} banner`}
                     style={{ width: "auto", height: "60px" }}
                     className="mb-3"
                   />

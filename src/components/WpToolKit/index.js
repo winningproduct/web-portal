@@ -19,7 +19,7 @@ const WpToolKit = () => {
               <div>
                 <img
                   src={tool.image}
-                  alt={`${tool.title} image`}
+                  alt={`${tool.title} banner`}
                   style={{ width: "100%", height: "auto" }}
                   className="mb-3"
                 />

@@ -1,6 +1,6 @@
 import React from "react"
 import { ExternalLinks } from "../../utils/constants"
-import SiteConfig from "../../../site-config"
+import AvatarsList from "./AvatarsList";
 
 const Contributors = () => {
   return (
@@ -26,31 +26,19 @@ const Contributors = () => {
                 href={ExternalLinks.GITHUB_REPO}
                 className="btn btn-outline-secondary"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src="../../github.png"
                   style={{ height: "20px", width: "auto" }}
                   className="mr-2"
+                  alt="github logo"
                 />
                 Contribute
               </a>
             </div>
             <div className="col col-sm-12 col-md-5 offset-md-1 my-5">
-              <div className="w-100 d-flex flex-row flex-wrap">
-                {SiteConfig.Contributors.map(contrib => (
-                  <div
-                    className="px-1 mb-2"
-                    style={{ width: "10%", borderRadius: "50%" }}
-                  >
-                    <img
-                      className="rounded-circle"
-                      src={contrib.image}
-                      alt="contributor avatar image"
-                      style={{ width: "100%", height: "auto" }}
-                    />
-                  </div>
-                ))}
-              </div>
+              <AvatarsList />
             </div>
           </div>
         </div>

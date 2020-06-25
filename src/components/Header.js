@@ -43,6 +43,7 @@ const Header = () => {
                       className="nav-link px-3"
                       href={ExternalLinks.LEARN_PORTAL}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Learn
                     </a>

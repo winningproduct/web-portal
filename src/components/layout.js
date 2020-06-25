@@ -2,6 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import "./layout.css"
 
+import Header from "./Header";
+import Footer from "./Footer";
+
 const Layout = ({ children }) => {
   return (
     <div>
@@ -14,9 +17,11 @@ const Layout = ({ children }) => {
         />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
       </header>
+      <Header />
       <div>
         {children}
       </div>
+      <Footer />
     </div>
   )
 }
