@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"
+import React, { useRef, useEffect, useState } from "react"
 
 import { Stages } from "../../../site-config"
 
@@ -11,13 +11,14 @@ function usePrevious(value) {
 }
 
 const StageLayout = ({ learn, stage }) => {
-  const [expand, setExpanded] = React.useState(false)
+  const [expand, setExpanded] = useState(false)
 
   const previousStage = usePrevious(stage)
   console.log("dsds", previousStage)
   const stageNode = Stages.find(stg => stg.name === stage)
 
   const subtopics = stageNode.learnPortalLinks.sub
+
   return (
     <div
       style={{
@@ -35,13 +36,7 @@ const StageLayout = ({ learn, stage }) => {
       <div className="px-3">
         {subtopics.slice(0, 5).map(topic => (
           <div
-            style={{
-              height: "36px",
-              backgroundColor: "#efefef",
-              color: "#fff",
-              cursor: "pointer",
-            }}
-            className="d-flex align-items-center mb-0 px-3 mb-2"
+            className="d-flex align-items-center mb-0 px-3 mb-2 btn-substages"
             onClick={() =>
               learn(`${stageNode.learnPortalLinks.main}/${topic.link}`)
             }
@@ -53,13 +48,7 @@ const StageLayout = ({ learn, stage }) => {
         {expand &&
           subtopics.slice(5, subtopics.length).map(topic => (
             <div
-              style={{
-                height: "36px",
-                backgroundColor: "#efefef",
-                color: "#fff",
-                cursor: "pointer",
-              }}
-              className="d-flex align-items-center mb-0 px-3 mb-2"
+              className="d-flex align-items-center mb-0 px-3 mb-2 btn-substages"
               onClick={() =>
                 learn(`${stageNode.learnPortalLinks.main}/${topic.link}`)
               }
@@ -68,7 +57,7 @@ const StageLayout = ({ learn, stage }) => {
             </div>
           ))}
 
-        {subtopics.length > 5 && !expand && (
+        {subtopics.length > 5 && (
           <div
             style={{
               height: "36px",
@@ -78,9 +67,11 @@ const StageLayout = ({ learn, stage }) => {
               cursor: "pointer",
             }}
             className="d-flex align-items-center mb-0 px-3 mb-2 justify-content-center"
-            onClick={() => setExpanded(true)}
+            onClick={() => setExpanded(!expand)}
           >
-            <p className="mb-0">{`+${subtopics.length - 5} more`}</p>
+            <p className="mb-0">
+              {expand ? "Hide" : `+${subtopics.length - 5} more`}
+            </p>
           </div>
         )}
       </div>
