@@ -70,7 +70,7 @@ const StageLayout = ({ learn, stage }) => {
             onClick={() => setExpanded(!expand)}
           >
             <p className="mb-0">
-              {expand ? "Hide" : `+${subtopics.length - 5} more`}
+              {expand ? "Show less" : `+${subtopics.length - 5} more`}
             </p>
           </div>
         )}
