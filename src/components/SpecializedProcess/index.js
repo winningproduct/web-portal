@@ -28,7 +28,7 @@ const SpecializedProcess = () => {
             >
               <img
                 src={sp.image}
-                alt={`${sp.title} image`}
+                alt={`${sp.title} banner`}
                 style={{ width: "100%", height: "auto" }}
               />
               <div className="px-4 py-4">

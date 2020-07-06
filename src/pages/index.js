@@ -2,20 +2,17 @@ import React from "react"
 import Typist from "react-typist"
 
 import Layout from "../components/layout"
-import Header from "../components/Header"
 import StageWheel from "../components/StageWheel"
 import SpecializedProcess from "../components/SpecializedProcess"
 import SEO from "../components/seo"
 import WpToolKit from "../components/WpToolKit"
 import Contributors from "../components/Contributors"
 import Certifications from "../components/Certifications"
-import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Header />
 
       <div className="container">
         <div className="row">
@@ -41,7 +38,6 @@ const IndexPage = () => {
       <Contributors />
       <Certifications />
 
-      <Footer />
     </Layout>
   )
 }
