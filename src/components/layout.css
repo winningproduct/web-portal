@@ -63,6 +63,16 @@ a {
   border-color: #8E44AD !important;
 }
 
+.btn-substages {
+  height: 36px;
+  background-color: #efefef;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-substages:hover {
+  background-color: #dfdfdf;
+}
 
 .btn-outline-primary.focus, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
