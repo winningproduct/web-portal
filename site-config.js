@@ -4,6 +4,7 @@ module.exports = {
       name: "EXPLORE",
       title: "Explore",
       subtitle: "Consider diverse alternatives",
+      color: "#ffbf40",
       learnPortalLinks: {
         main: "1-explore",
         sub: [
@@ -46,6 +47,7 @@ module.exports = {
       name: "FOCUS",
       title: "Focus",
       subtitle: "Select a specialization to target",
+      color: "#487da8",
       learnPortalLinks: {
         main: "2-focus",
         sub: [
@@ -88,6 +90,7 @@ module.exports = {
       name: "IMMERSE",
       title: "Immerse",
       subtitle: "Dig deep and understand the solution",
+      color: "#5fd996",
       learnPortalLinks: {
         main: "3-immerse",
         sub: [
@@ -130,6 +133,7 @@ module.exports = {
       name: "PLAN",
       title: "Plan",
       subtitle: "Strategize the agility of pro",
+      color: "#ff715e",
       learnPortalLinks: {
         main: "4-plan",
         sub: [
@@ -200,7 +204,7 @@ module.exports = {
       name: "BUILD",
       title: "Build",
       subtitle: "Validate the Primary Assumptions",
-
+      color: "#487da8",
       learnPortalLinks: {
         main: "5-build",
         sub: [
@@ -275,6 +279,7 @@ module.exports = {
       name: "OPTIMIZE",
       title: "Optimize",
       subtitle: "Fine tune the product to achieve the maximum output",
+      color: "#ffbf40",
       learnPortalLinks: {
         main: "6-optimize",
         sub: [
@@ -325,6 +330,7 @@ module.exports = {
       name: "HARVEST",
       title: "Harvest",
       subtitle: "Operate with highest return on investment",
+      color: "#5fd996",
       learnPortalLinks: {
         main: "7-harvest",
         sub: [
@@ -380,6 +386,7 @@ module.exports = {
       title: "Retire",
       subtitle:
         "Consider to sunset the existing product with a new generation product",
+      color: "#ff715e",
       learnPortalLinks: {
         main: "8-retire",
         sub: [

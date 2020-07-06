@@ -22,7 +22,7 @@ const StageLayout = ({ learn, stage }) => {
   return (
     <div
       style={{
-        border: "2px solid #ffbf40",
+        border: `2px solid ${stageNode.color}`,
         backgroundColor: "#fff",
         width: "420px",
       }}
@@ -63,7 +63,7 @@ const StageLayout = ({ learn, stage }) => {
               height: "36px",
               backgroundColor: "#ffffff",
               color: "#2ECC71",
-              border: "1px solid #ffbf40",
+              border: `1px solid ${stageNode.color}`,
               cursor: "pointer",
             }}
             className="d-flex align-items-center mb-0 px-3 mb-2 justify-content-center"
@@ -77,7 +77,11 @@ const StageLayout = ({ learn, stage }) => {
       </div>
       <div
         className="py-3 mb-0 mt-5 text-center"
-        style={{ backgroundColor: "#ffbf40", color: "#fff", cursor: "pointer" }}
+        style={{
+          backgroundColor: stageNode.color,
+          color: "#fff",
+          cursor: "pointer",
+        }}
         onClick={() => learn(stageNode.learnPortalLinks.main)}
       >
         <p className="mb-0 text-center">
