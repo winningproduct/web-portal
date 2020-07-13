@@ -23,8 +23,16 @@ a {
   text-decoration: none !important;
 }
 
-#step-8:hover, #step-7:hover, #step-6:hover, #step-5:hover, #step-4:hover, #step-3:hover, #step-2:hover, #step-1:hover{
+#step-8:hover, #step-7:hover, #step-6:hover, #step-5:hover, #step-4:hover, #step-3:hover, #step-2:hover, #step-1:hover {
   opacity: 1 ;
+}
+
+#step-1:hover .arrowDef {
+  fill:#FFBF40;
+}
+
+#step-1:hover .step-1-hover {
+  opacity: 1;
 }
 
 .twolineHeading{
