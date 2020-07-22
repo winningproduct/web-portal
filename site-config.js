@@ -9,7 +9,7 @@ module.exports = {
         main: "1-explore",
         sub: [
           {
-            title: "Product Concept Pitch Desk",
+            title: "Product Concept Pitch Deck",
             link: "01-product-concept-pitch-deck",
           },
           {
@@ -391,7 +391,7 @@ module.exports = {
         main: "8-retire",
         sub: [
           {
-            title: "End-of-life Roadmap",
+            title: "End-of-Life Roadmap",
             link: "01-end-of-life-roadmap",
           },
           {
@@ -416,8 +416,8 @@ module.exports = {
       title: "Explore – Value proposition",
       subTitle:
         "Value proposition is the primary value that the company" +
-        "promises to deliver to customers. This is the declaration of" +
-        "intent …",
+        " promises to deliver to customers. This is the declaration of" +
+        " intent …",
       link: "1-explore/05-value-proposition",
     },
     {
@@ -425,15 +425,15 @@ module.exports = {
       title: "Focus – MVP identification",
       subTitle:
         "MVP is the minimum set features that can gain maximum" +
-        "learning and has low cost of implementation.",
+        " learning and has low cost of implementation.",
       link: "2-focus/02-mvp-identification",
     },
     {
       image: "../../TA.png",
       title: "Focus - Technical Architecture",
       subTitle:
-        " Is the solution is technically feasible to implement with" +
-        "available resources?",
+        "Is the solution is technically feasible to implement with" +
+        " available resources?",
       link: "2-focus/07-technical-architecture",
     },
     {
@@ -441,7 +441,7 @@ module.exports = {
       title: "Immerse – High fidelity prototype",
       subTitle:
         "High fidelity prototype is a detailed prototype to" +
-        "demonstrate how the final product would operate",
+        " demonstrate how the final product would operate.",
       link: "3-immerse/06-high-fidelity-prototype",
     },
     {
@@ -449,8 +449,8 @@ module.exports = {
       title: "Plan – Growth hacking plan",
       subTitle:
         "Growth hacking is exploring low cost and smarter options to" +
-        "gain a rapid market reach in a short time for growth through" +
-        "referrals and up-sales.",
+        " gain a rapid market reach in a short time for growth through" +
+        " referrals and up-sales.",
       link: "4-plan/12-growth-hacking-plan",
     },
     {
@@ -458,7 +458,7 @@ module.exports = {
       title: "Plan - Delivery Pipeline",
       subTitle:
         "Setup of the source control flow, code integration process," +
-        "automation strategy (CI/CD/Tests), scaling, etc.",
+        " automation strategy (CI/CD/Tests), scaling, etc.",
       link: "4-plan/04-delivery-pipeline",
     },
     {
@@ -475,7 +475,7 @@ module.exports = {
       title: "Harvest – Win-loss Analysis",
       subTitle:
         "Do a win loss analysis on your leads to understand why you" +
-        "lost and what are the strong points in your application.",
+        " lost and what are the strong points in your application.",
       link: "7-harvest/11-win-lose-analysis",
     },
   ],
@@ -633,7 +633,7 @@ module.exports = {
       subTitle: "Recommended start",
       description:
         "Ideal for individuals just starting in technology or" +
-        "thinking about a career change",
+        " thinking about a career change.",
       buttonText: "Professional Certifications",
     },
     {
@@ -641,15 +641,15 @@ module.exports = {
       title: "Expert Certification",
       subTitle: "With comprehensive working experience",
       description:
-        "It is helpful to have related Professional certification but" +
-        "is not required",
+        "It is helpful to have a related professional certification but" +
+        " it is not required.",
       buttonText: "Expert Certifications",
     },
     {
       image: "../../level3.svg",
       title: "Ninja Certification",
       subTitle: "Comprehensive working experience with impact",
-      description: "Ninja certification requires a expert level certification",
+      description: "Ninja certification requires an expert level certification.",
       buttonText: "Ninja Certifications",
     },
   ],

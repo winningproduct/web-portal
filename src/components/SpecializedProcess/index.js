@@ -11,7 +11,7 @@ const SpecializedProcess = () => {
   return (
     <div className="row mt-5 mb-3">
       <div className="col-12 col-sm-12 mb-3">
-        <h3>Why products requires a specialized process?</h3>
+        <h3>Why products require a specialized process?</h3>
         <p className="lead">
           Product management is different to bespoke application development.
           Learn how a specialized process keeps your product different from the
