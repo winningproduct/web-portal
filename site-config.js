@@ -507,72 +507,55 @@ module.exports = {
   ],
   Contributors: [
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/2338919?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../2338919.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/36729333?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../36729333.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/1892961?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../1892961.png",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/33232105?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../33232105.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/63349272?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../63349272.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/2035004?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../2035004.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/5242449?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../5242449.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/57340100?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../57340100.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/42619922?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../42619922.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/628163?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../628163.png",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/19371972?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../19371972.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/22959475?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../22959475.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/11753507?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../11753507.png",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/17847364?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../17847364.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/9572090?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../9572090.jpeg",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/10953143?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../10953143.png",
     },
     {
-      image:
-        "https://avatars3.githubusercontent.com/u/27477126?s=400&u=092b53b361fdf892de6a3e6389a0a388d41a39ff&v=4",
+      image: "../../27477126.jpeg",
     },
     {
       image: "../../git-amila.jpg",
