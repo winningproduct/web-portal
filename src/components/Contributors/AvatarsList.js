@@ -15,5 +15,38 @@ const AvatarsList = () => (
     ))}
   </div>
 )
+// {
+//   const [contributors, setContributors] = useState([])
+
+//   useEffect(() => {
+//     fetch(
+//       "https://api.github.com/repos/winningproduct/learn-portal/contributors"
+//     )
+//       .then(res => res.json())
+//       .then(data => {
+//         setContributors(data)
+//       })
+//   }, [])
+
+//   return (
+//     <div className="w-100 d-flex flex-row flex-wrap">
+//       {contributors.map(contributor => (
+//         <div
+//           className="px-1 mb-2"
+//           style={{ width: "10%", borderRadius: "50%" }}
+//         >
+//           <a href={contributor.url}>
+//             <img
+//               className="rounded-circle"
+//               src={contributor.avatar_url}
+//               alt="contributor avatar"
+//               style={{ width: "100%", height: "auto" }}
+//             />
+//           </a>
+//         </div>
+//       ))}
+//     </div>
+//   )
+// }
 
 export default AvatarsList
