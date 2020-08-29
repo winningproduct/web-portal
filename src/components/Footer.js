@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 text-center">
-              <p className="mb-0">
+              {/* <p className="mb-0">
                 <b>
                   Hosted with <span role="img" aria-label="heart">❤️</span> by{" "}
                   <a
@@ -17,7 +17,7 @@ const Footer = () => {
                     99X Technology
                   </a>
                 </b>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
